@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/outprayers"
+        android:orderInCategory="100"
+        android:title="@string/out"
+        android:layout_gravity="left"
+        android:gravity="left"
+        android:layout_alignParentLeft="true"
+        android:icon="@mipmap/home"
+        app:showAsAction="ifRoom">
+    </item>
+</menu>

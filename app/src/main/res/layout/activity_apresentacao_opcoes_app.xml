@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    tools:context="testeadapt3.cursoandroid2.com.pray.activities.ApresentacaoOpcoesAppActivity">
+
+    <include
+        android:id="@+id/toolbarPrayers"
+        layout="@layout/toolbar"></include>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbarPrayers"
+        android:background="@drawable/praylay"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="false"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="top"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="top"
+                    android:orientation="vertical">
+
+
+                    <Button
+                        android:id="@+id/oracoes"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/botoes_transparentes_pretos_quadrados"
+                        android:fontFamily="casual"
+                        android:gravity="center"
+                        android:scaleType="fitCenter"
+                        android:text="@string/oracoes"
+                        android:theme="@style/MyThemeButtons" />
+
+
+                    <Button
+                        android:id="@+id/AjudaDoutrinaria"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/botoes_transparentes_pretos_quadrados"
+                        android:gravity="center"
+                        android:text="@string/ajudadedoutrina"
+                        android:theme="@style/MyThemeButtons" />
+
+                    <Button
+                        android:id="@+id/catecismo"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/botoes_transparentes_pretos_quadrados"
+                        android:gravity="center"
+                        android:text="@string/catecismo"
+                        android:theme="@style/MyThemeButtons" />
+
+                    <!--<Button-->
+                        <!--android:id="@+id/questionamentos"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="match_parent"-->
+                        <!--android:layout_weight="1"-->
+                        <!--android:background="@drawable/botoes_transparentes_pretos_quadrados"-->
+                        <!--android:drawableRight="@drawable/ic_keyboard_arrow_right"-->
+                        <!--android:gravity="center"-->
+                        <!--android:text="@string/duvidasequestionamentos"-->
+                        <!--android:theme="@style/MyThemeButtons" />-->
+
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

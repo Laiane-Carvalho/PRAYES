@@ -1,0 +1,1604 @@
+<resources>
+    <string name="app_name">Pray</string>
+    <string name="app_nameNome">Nome</string>
+    <string name="app_nameEmail">Email</string>
+    <string name="app_senha">Senha</string>
+
+    <string name="facebook_app_id">2147074982206130</string>
+    <string name="fb_login_protocol_scheme">fb2147074982206130</string>
+    <string name="oracao">Oracao</string>
+    <string name="oracoes">Orações</string>
+    <string name="out">Sair</string>
+    <string name="catecismo">Catecismo da Doutrina</string>
+    <string name="rezarRosário">Como rezar o Rosário</string>
+    <string name="duvidasequestionamentos">Duvidas</string>
+    <string name="demaisoracoesdocatolico">Demais oracões do catóico</string>
+    <string name="title_activity_abrir_oracoes">AbrirOracoesActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_resumo_oracoes">ResumoOracoesActivity</string>
+    <string name="oracoesDiarias">Orações Diárias</string>
+    <string name="oracoesdeConsagracao">Orações de Consagrações</string>
+    <string name="jaculatorias">Jaculatórias</string>
+    <string name="novena">Novenas</string>
+    <string name="SantaMissapreparacao">Santa Missa( Preparação )</string>
+    <string name="SantaMissaAcaoDeGraca">Santa Missa( Ação de Graças )</string>
+    <string name="ajudadedoutrina">Auxilio Doutrinário</string>
+    <string name="config">Configurações</string>
+
+    <string name="MensagemPassagem">
+        <big> O Senhor, o seu Deus,</big>\n
+    <big>está em seu meio, poderoso para salvar.</big>\n
+    <big>Ele se regozijará em você;</big>\n
+    <big>com o seu amor a renovará, ele se regozijará em você</big>\n
+    <big>com brados de alegria".</big>\n
+        <b>Sofonias 3:17</b>\n
+    </string>
+
+    <string name="avemaria">
+       <big>Ave Maria</big>
+        Ave Maria cheia de graça\n +
+                O Senhor é convosco,\n +
+                Bendita sois Vós entre as mulheres,\n +
+                E bendito é o fruto do vosso ventre, Jesus.\n +
+                Santa Maria, Mãe de Deus,\n +
+                Rogai por nós pecadores,\n +
+                Agora e na hora da nossa morte.\n +
+                Amém.
+    </string>
+    <string name="cordeirodedeus">
+        <big>Cordeiro de Deus</big>
+                "Cordeiro de Deus, que tirais o pecado do mundo, tende piedade de nós.\n"
+                "Cordeiro de Deus, que tirais o pecado do mundo, tende piedade de nós.\n"
+                "Cordeiro de Deus, que tirais o pecado do mundo, dai-nos a paz.\n"
+                "\n"
+                "Agnus Dei\n"
+                "Agnus Dei, qui tollis peccata mundi, miserere nobis.\n"
+                "Agnus Dei, qui tollis peccata mundi, miserere nobis.\n"
+                "Agnus Dei, qui tollis peccata mundi, dona nobis pacem.\n"
+                "\n"
+    </string>
+
+    <string name="creioemdeuspai">
+        Creio em um só Deus
+Pai todo-poderoso,
+criador do céu e da terra
+de todas as coisas visíveis e invisíveis.
+
+Creio em um só Senhor, Jesus Cristo,
+Filho Unigênito de Deus,
+nascido do Pai antes de todos os séculos;
+Deus de Deus,
+Luz da Luz,
+Deus verdadeiro de Deus verdadeiro;
+gerado, não criado,
+consubstancial ao Pai.
+
+Por ele todas as coisas foram feitas.
+E por nós, homens, e para nossa
+salvação, desceu dos céus
+e se encarnou pelo Espírito Santo,
+no seio da Virgem Maria,
+e se fez homem.
+Também por nós foi crucificado sob
+Pôncio Pilatos;
+padeceu e foi sepultado.
+
+Ressuscitou ao terceiro dia,
+conforme as Escrituras,
+e subiu aos céus,
+onde está sentado à direita do Pai.
+
+E de novo há de vir, em sua glória,
+para julgar os vivos e os mortos;
+e o seu reino não terá fim.
+
+Creio no Espírito Santo,
+Senhor que dá a vida,
+e procede do Pai e do Filho;
+e com o Pai e o Filho
+é adorado e glorificado:
+Ele falou pelos profetas.
+
+Creio na Igreja,
+una, santa, católica e apóstolica.
+Professo um só batismo
+para a remissão dos pecados.
+E espero a ressurreição dos mortos
+e vida do mundo que há de vir.
+Amém.
+
+
+
+    </string>
+    <string name="painosso">
+        Pai Nosso, que estais no Céu 
+Santificado seja o Vosso Nome 
+Venha a nós o Vosso Reino 
+Seja feita a Vossa Vontade, 
+Assim na Terra como no Céu 
+O Pão-Nosso de cada dia nos daí hoje 
+Perdoai-nos as nossas ofensas 
+Assim como nós perdoamos a 
+Quem nos tem ofendido 
+E não nos deixeis cair em tentação 
+Mas livrai-nos do Mal.
+
+        Amém
+    </string>
+    <string name="gloriaaopai">
+        Glória ao Pai , ao Filho e ao Espírito Santo.
+Assim como era no princípio , agora e sempre.
+
+        Amém
+    </string>
+    <string name="gloriaadeusnasalturas">
+        Glória a Deus nas alturas
+Glória a Deus nas alturas e paz na terra aos homens por Ele amados.
+        Senhor Deus, Rei dos céus, Deus Pai todo-poderoso:
+        nós Vos louvamos, nós Vos bendizemos, nós Vos adoramos,
+        nós Vos glorificamos, nós Vos damos graças,
+        por vossa imensa glória.
+        Senhor Jesus Cristo, Filho Unigénito, Senhor Deus, Cordeiro de Deus, Filho de Deus Pai:
+        Vós que tirais o pecado do mundo, tende piedade de nós;
+        Vós que tirais o pecado do mundo, acolhei a nossa súplica;
+        Vós que estais à direita do Pai, tende piedade de nós. Só Vós sois o Santo;
+        só Vós, o Senhor; só Vós, o Altíssimo, Jesus Cristo; com o Espírito Santo na glória de Deus Pai.
+
+                                Amém
+    </string>
+    <string name="salverainha">
+        Salve Rainha, Mãe de Misericórdia
+Vida, doçura e esperança nossa, Salve!
+A Vós bradamos, os degredados filhos de Eva
+A Vós suspiramos, gemendo e chorando
+neste Vale de Lágrimas.
+Eia, pois, advogada nossa
+Esses Vossos olhos misericordiosos
+A nós volvei!
+E depois desse desterro,
+Mostrai-nos Jesus, bendito fruto do Vosso Ventre
+Ó Clemente,
+Ó Piedosa,
+Ó Doce Sempre Virgem Maria.
+Rogai por nós Santa Mãe de Deus,
+Para que sejamos dignos das promessas de Cristo. Amém.
+
+
+    </string>
+    <string name="sinaldacruz">
+        	Sinal da Cruz
+Pelo Sinal da Santa Cruz (+)
+livre-nos, Deus nosso Senhor (+) dos nossos inimigos (+).
+Em nome do Pai, do Filho e do Espírito Santo (+).
+                Amen.
+    </string>
+    <string name="vindeespiritosanto">
+        Vinde Espírito Santo,
+        enchei os corações dos vossos fiéis
+        e acendei neles o fogo do Vosso Amor.
+        Enviai o Vosso Espírito e tudo será criado e renovareis a face da terra.
+        Oremos: Ó Deus que instruíste os corações dos vossos fiéis,
+        com a luz do Espírito Santo,
+        fazei que apreciemos retamente todas as coisas segundo o mesmo Espírito
+        e gozemos da sua consolação.Por Cristo Senhor Nosso.
+                    Amém
+    </string>
+    <string name="oracaodamanhapassagem">
+
+        Pela manhã chegue até a janela e diga:
+        "Esse é o dia em que o Senhor fez para nós: Alegremo-nos e nele exultemos!"
+
+
+        1.Ao mestre de canto. Com flautas. Salmo de Davi.
+2.Senhor, ouvi minhas palavras, escutai meus gemidos.
+3.Atendei à voz de minha prece, ó meu rei, ó meu Deus.
+4.É a vós que eu invoco, Senhor, desde a manhã; escutai a minha voz, porque, desde o raiar do dia, vos apresento minha súplica e espero.
+5.Pois vós não sois um Deus a quem agrade o mal, o mau não poderia morar junto de vós;
+6.os ímpios não podem resistir ao vosso olhar. Detestais a todos os que praticam o mal,
+7.fazeis perecer aqueles que mentem, o homem cruel e doloso vos é abominável, ó Senhor.
+8.Mas eu, graças à vossa grande bondade, entrarei em vossa casa. Prostrar-me-ei em vosso santuário, com o respeito que vos é devido, Senhor.
+9.Conduzi-me pelas sendas da justiça, por causa de meus inimigos; aplainai, para mim, vosso caminho.
+10.Porque em seus lábios não há sinceridade, seus corações só urdem projetos ardilosos. A garganta deles é como um sepulcro escancarado, com a língua distribuem lisonjas.
+11.Deixai-os, Senhor, prender-se nos seus erros, que suas maquinações malogrem! Por causa do número de seus crimes, rejeitai-os, pois é contra vós que se revoltaram.
+12.Regozijam-se, pelo contrário, os que em vós confiam, permanecem para sempre na alegria. Protegei-os e triunfarão em vós os que amam vosso nome.
+13.Pois, vós, Senhor, abençoais o justo; vossa benevolência, como um escudo, o cobrirá.
+
+        Salmo 5
+
+Oração:
+
+Senhor, no silêncio deste dia que amanhece venho pedir-te a paz, a sabedoria e a
+força.
+
+Quero hoje olhar o mundo com os olhos cheios de amor.
+
+Quero ser paciente, compreensivo, manso e prudente.
+
+
+Quero ver além das aparências Teus filhos como Tu mesmo os vê, e
+assim só ver o bem em cada um.
+
+Cerra o meu ouvido de toda calúnia, guarda minha língua de toda maldade.
+
+Que só de bênçãos se encha o meu espírito.
+
+Que eu seja tão bondoso e alegre que todos aqueles que se achegarem a mim,
+sintam a Tua presença.
+
+Reveste-me Senhor de Tua beleza, para que no decurso deste dia, eu Te revele a todos.
+
+AMÉM!
+
+        fonte : sabercatolico.com
+
+        passagem biblia Bíblia Ave Maria, pg 659
+    </string>
+    <string name="oracaodanoitepassagem">
+        Oração da Noite
+
+Meu Pai, agora que as vozes silenciaram e os clamores se apagaram, aqui ao pé da cama e minha alma se eleva a Ti para dizer:
+
+Creio em Ti, espero em Ti, e amo-Te com todas as minhas forças, glória a Ti, Senhor!
+
+Deposito nas tuas mãos a fadiga e a luta, as alegrias e desencantos deste dia que ficou para trás.
+
+Se os nervos me traíram, se os impulsos egoístas me dominaram, se dei lugar ao rancor ou à tristeza, perdão Senhor!
+
+Tem piedade de mim.
+
+Se fui infiel, se pronunciei palavras em vão, se me deixei levar pela impaciência, se fui um espinho para alguém, perdão Senhor!
+
+Nesta noite não quero entregar-me ao sono sem sentir na minha alma a segurança da tua misericórdia, a tua doce misericórdia inteiramente gratuita.
+
+Senhor, eu Te agradeço, meu Pai, porque foste a sombra fresca que me cobriu durante todo este dia.
+
+Eu Te agradeço porque invisível, carinhoso e envolvente, cuidaste de mim como uma mãe em todas essas horas.
+
+Senhor, ao redor de mim tudo já é silêncio e calma.
+
+Envia o anjo da paz a esta casa.
+
+Relaxa meus nervos, sossega o meu espírito, solta as minhas tensões, inunda meu ser de silêncio e de serenidade.
+
+Vela por mim Pai querido, enquanto eu me entrego confiante ao sono como uma criança que dorme feliz em teus braços.
+
+Em teu Nome, Senhor, descansarei tranquilo.
+
+Assim seja!
+
+Amém.
+
+        Querida Mãe, vigia o meu sono, protege a minha família e conforta todos os doentes e aflitos.
+
+Assiste aos agonizantes e leva-os para o céu para junto do Pai.
+
+Antes de dormir, quero renovar a minha aliança de amor e recomendar muito especialmente todos aqueles por quem sou responsável:
+
+(Consagração a Nossa Senhora)
+
+Ó minha Senhora minha, ó minha Mãe…
+
+
+
+
+        " 1.Ao mestre de canto. Com instrumentos de corda. Salmo de Davi.
+        2.Quando vos invoco, respondei-me, ó Deus de minha justiça, vós que na hora da angústia me reconfortastes.Tende piedade de mim e ouvi minha oração.
+        3.Ó poderosos, até quando tereis o coração endurecido, no amor das vaidades e na busca da mentira?
+        4.O Senhor escolheu como eleito uma pessoa admirável, o Senhor me ouviu quando o invoquei.
+        5.Tremei, mas sem pecar; refleti em vossos corações, quando estiverdes em vossos leitos, e calai.
+        6.Oferecei vossos sacrifícios com sinceridade e esperai no Senhor.
+        7.Dizem muitos: Quem nos fará ver a felicidade? Fazei brilhar sobre nós, Senhor, a luz de vossa face.
+        8.Pusestes em meu coração mais alegria do que quando abundam o trigo e o vinho. 9.Apenas me deito, logo adormeço em paz, porque a segurança de meu repouso vem de vós só, Senhor."
+Salmos, 4 -
+
+Leia mais em: https://www.bibliacatolica.com.br/biblia-ave-maria/salmos/4/
+
+        Fonte oracao : www.oracaoefe.com.br
+        passagem biblia Ave Maria
+
+
+    </string>
+
+
+    //grupo 1
+    <string name="consagracaonossasenhora">
+        Consagração a Nossa Senhora
+Ó Senhora minha ó minha Mãe,
+Eu me ofereço todo a vós
+E, em prova da minha devoção para convosco,
+Vos consagro, neste dia,
+E  para sempre,
+os  meus olhos, meu ouvidos,
+minha boca, meu coração e,
+inteiramente, todo o meu ser:
+e por assim sou vosso,
+Ó incomparável Mãe,
+Guardai-me, defendei-me
+Como coisa e propriedade vossa.
+Lembrai-vos que vos pertenço,
+Terna Mãe, Senhora nossa;
+Guardai-me e defendei-me
+Como coisa própria vossa
+Amen.
+    </string>
+    <string name="consagracaomariarainhadoceu">
+        Maria, rainha do céu e da terra filha predileta do Pai,
+mãe do Filho de Deus, esposa imaculada do Espírito Santo,
+admiro e louvo o vosso privilégio, único no mundo, pois
+agradando a Deus pela vossa humildade, fé e virgindade,
+fostes escolhida para ser a Mãe do Salvador vosso mestre,
+verdadeira luz do mundo, sabedoria incriada, fonte e
+primeiro Apóstolo da Verdade.
+      Destes ao mundo o grande livro: a Palavra eterna,
+o Filho encarnado. Louvo à Santíssima Trindade por esse
+privilégio tão sublime e pela grande alegria que experimentastes.
+Alcançai-nos o dom da sabedoria celeste e a graça de que sejamos
+servos autêntico de Cristo, fiéis à sua Igreja e mensageiros da Verdade.
+Fazei resplandecer, em nossos corações, a luz do Evangelho.
+Dissipai de nossas vidas os erros, e congregai-nos à Igreja de Cristo,
+para que, i1uminados pela palavra de Deus, anunciemos esta
+mesma Palavra de Vida e Eternidade.
+      Ouvi nossas preces, mãe do Bom Conselho, sede de sabedoria,
+rainha dos santos, e acolhei-nos _ a nós e a todas as Secretarias da
+Ofensiva Nacional da Renovação Carismática _ e especialmente
+estas Secretarias Rafael e Moisés, em vosso materno e Imaculado
+Coração, hoje e em todos os dias de nossas vidas, para que se realize
+a plena vontade do Senhor para nós e para todos os nossos irmãos.
+Amém! Ave Maria
+
+        livro oracoes selecionadas (por cura, libertacao e intercessao)
+    </string>
+    <string name="consagracaoaoimaculadocoracaodemaria">
+        Oh! Maria, Mãe de Deus e nossa Mãe, Rainha do céu e refúgio dos pecadores, recebei nossa vida, todo o nosso ser, tudo o que temos, tudo o que amamos, tudo o que somos. A Vós pertencem nossos lares, nossa pátria. Queremos que seja vosso, e participe dos benefícios de vossas bênçãos maternais, tudo o que existe em nós, e ao redor de nós.
+E, para que esta consagração seja realmente eficaz e duradoura, renovamos hoje, aos vossos pés, ó Maria,
+as promessas do nosso Batismo e da nossa primeira comunhão.
+
+    </string>
+    <string name="consagracaoaopreciosissimosanguedejesus">
+        Na consciência do meu nada e da Vossa grandeza, misericordioso Salvador, eu me prostro aos Vossos pés e Vos rendo graças pelos inúmeros favores que me haveis concedido, a mim ingrata criatura, em especial, o terdes-me livrado, por intermédio de Vosso Preciosíssimo Sangue, da maléfica tirania de satanás.
+
+Em presença de Maria minha boa Mãe, do meu Anjo da Guarda, dos meus Santos Patronos, de toda a Corte celeste, eu me consagro, ó bondosissimo Jesus, com sincero coração e por livre decisão, ao Vosso Preciosíssimo Sangue, com o qual Vós livrastes o mundo inteiro do pecado, da morte e do inferno.
+
+Prometo-Vos, com o auxílio da Vossa graça e segundo as minhas forcas, despertar e fomentar, quanto em meu poder estiver, a devoção ao Vosso Preciosíssimo Sangue, preço da nossa salvação, a fim de que o Vosso Sangue adorável seja por todos honrado e venerado.
+
+Quisera eu, por este modo, reparar as minhas infidelidades para com o Preciosíssimo Sangue e oferecer-Vos, igualmente, reparação por tantos sacrilégios, pelos homens cometidos, contra o preciosíssimo preço de nossa redenção.
+
+Oxalá eu pudesse fazer desaparecer os meus pecados, as minhas friezas e todos os desrespeitos com que Vos ofendi, ó Preciosíssimo Sangue!
+
+Vede, amantíssimo Jesus, que Vos ofereço o amor, a estima e adoração que a Vossa Mãe Santíssima, os Vossos Apóstolos fieis e todos os Santos renderam ao Vosso Preciosíssimo Sangue, e Vos rogo, queirais esquecer-Vos das minhas infidelidades e friezas passadas e perdoeis a quantos Vos ofendem.
+
+Aspergi-me, Divino Salvador, e bem assim, a todos os homens, com o Vosso Preciosíssimo Sangue, a fim de que nós, ó Amor Crucificado, desde agora e de todo o coração, Vos amemos e dignamente honremos o preço da nossa salvação. Amém.
+
+
+[com aprovação eclesiástica]
+
+    </string>
+    <string name="consagracaoespiritosanto">
+        Divino Espírito Santo, luz eterna e brilhantíssima cuja magnificência enche o céu e a terra,eis-me aqui humildemente prostrado ante vossa divina presença para me consagrar a Vós para sempre.(SMA)
+
+Adoro o brilho de Vossa pureza, vossa imutável justiça e o poder do Vosso amor. É por Vós, força e luz de minha alma, que eu penso, vivo e trabalho.[www.arcanjomiguel.net]
+
+Não permitais que eu peque contra Vós, nem resista aos suaves impulsos de Vossa graça, mas dirigi todos os meus pensamentos para que eu esteja atento à voz das Vossas inspirações, as siga fielmente e encontre na Vossa misericórdia, auxílio contra minha fraqueza.(SMA)
+
+Adorável Espírito, compadecei-vos de minha indigência, preservai-me de todo erro e obtenha-me o perdão se eu chegar a cair em pecado.
+
+Peço-Vos de joelhos, aos pés de Jesus Crucificado, contemplando e adorando as Suas Chagas sagradas. Seu lado aberto, Seu coração transpassado.[www.arcanjomiguel.net]
+
+Espírito do Pai e do Filho, fazei que com Vossa graça possa dizer em tudo e sempre: "Falai, Senhor, que Vosso servo vos ouve". Espírito de Sabedoria e Entendimento, dissipai minha ignorância. Espírito de Conselho, dirigi a minha inexperiência.
+
+Espírito de força, fazei-me perseverante no serviço de Deus, dai-me a força de proceder em tudo com bondade, benevolência. Espírito de Temor de Deus, livrai-me de todo mal.[www.arcanjomiguel.net]
+
+Espírito de Paz, dai-me a Vossa paz. Espírito de Santidade, ornai com as celestes virtudes da pureza e da modéstia, a mim, templo que escolhestes para Vossa morada, e por Vossa graça poderosíssima, preservai constantemente minha alma da mancha do pecado. Assim seja.
+
+        [LIVRO ORACOES SELECIONADAS, POR CURA,LIBERTACAO E INTERCESSÃO= COM APROVACAO ACLESIASTICA]
+    </string>
+    <string name="consagracaoasaojose">
+
+Ó glorioso São José, que Deus escolheu para pai adotivo de Jesus, para Esposo puríssimo da Virgem Maria e chefe da Sagrada família, e que o Sumo Pontífice declarou Padroeiro e Protetor da Igreja fundada por Jesus, eu recorro a vós neste momento e imploro com a maior confiança, o vosso poderoso auxilio para toda a Igreja militante.
+
+Protejei, e especialmente, com vosso amor verdadeiramente paternal, o Vigário de Cristo e todos os Bispos e Sacerdotes, unidos à Santa Sé de Pedro.
+Defendei os que trabalham pela salvação das almas, entre as angústias de tribulações desta vida, e fazei que todos os povos da Terra se sujeitem docilmente à Igreja, que é o meio de salvação necessário para todos.
+
+Dignai-vos também, meu querido São José, aceitar a consagração que vos faço de mim mesmo. Eu me ofereço todo a vós, para que sejais sempre meu pai, o meu protetor e meu guia no caminho da salvação. Alcançai-me uma grande pureza de coração e um amor ardente à vida interior.
+
+Fazei que seguindo o vosso exemplo, todas as minhas obras sejam dirigidas para a maior gloria de Deus em união como o Coração Divino de Jesus e com o Coração imaculado de Maria e convosco. Amém.
+
+
+        clube da evangelizacao cançao nova
+    </string>
+
+
+    //grupo2
+    <string name="curainterior">
+        Pai de amor e de bondade, aqui estou me colocando diante da Tua presença, me colocando diante da Tua luz. Da maneira em que me encontro, com tudo aquilo que trago dentro de mim, com as minhas feridas, com as minhas dores; com as minhas angustias, com a minha solidão, mas é desta maneira que me coloco diante de Ti. Pois esta é a minha verdade e por mais que eu quisesse dizer que o meu interior está bem, o Senhor saberia que ai não estaria a minha verdade.
+
+E por isso eu começo este momento Te louvando e agradecendo porque sei que me acolhes desta maneira, da maneira em que estou agora. Obrigado porque o Senhor não me rejeita, obrigado porque o Senhor agora não se preocupa com o que eu fiz de errado, porque agora o Senhor  nem mesmo quer falar sobre o meu pecado, mas o Senhor me acolhe somente, e por isso eu te louvo e agradeço. Pois em Ti eu sei que posso me entregar sem precisar fingir e disfarçar.
+
+Mas sei também que durante muito tempo eu estive preso ao pecado, estive andando por caminhos que o Senhor não estava e nem queria que eu estivesse, mas fui teimoso e egoísta, e andei por estes caminhos. Percebi que estes caminhos me trouxeram sofrimentos e desilusões, pois estes caminhos na qual trilhei foram me afastando cada vez mais da Tua presença. Por isso quero te pedir perdão! Me perdoa Pai pelos erros conscientes que cometi contra Ti, derrama sobre mim a Tua misericórdia e compaixão, misericórdia de mim Senhor!
+
+Quero lhe agradecer oh Pai por Jesus que se entregou e morreu  na cruz por causa dos meus pecados, mas também morreu por causa dos meus temores, dos meus medos, e para me libertar de todo o tipo de mal. Obrigado porque pela Sua morte Jesus, o Senhor quis restaurar toda a vida do homem e fazer de mim uma nova criatura.
+
+E Jesus quer me curar por inteiro(a), o meu físico, o meu psicológico e o meu espirito. Ele quer sarar o meu coração por inteiro. Por isso Senhor derrama sobre mim um novo amor e um novo batismo do Espirito Santo, para que pela Tua graça eu posso ser curado e restaurado.
+
+Creio que Tú és o mesmo de ontem de hoje e de todo o sempre, e que da mesma maneira com que fez com Lázaro a mais de dois mil anos atrás, o Senhor pode fazer isso comigo hoje; me chamar para fora do túmulo, me dar uma nova vida, ressuscitar tudo aquilo que está morto em mim. Por isso Senhor, traz toda a cura que necessito! Jesus pelo poder da Tua graça volte à minha quinta e sexta geração, e quebre todo e qualquer tipo de laço que possa ainda estar me prendendo aos meus antepassados, à minha arvore genealógica! Corta toda a ação do mal e seus laços nocivos!
+
+Senhor Jesus, Tu me conheces antes até mesmo do meu nascimento, antes mesmo da minha concepção o Senhor já me conhecia e me amava. Obrigado Jesus!
+
+Obrigado Jesus porque também no exato momento que fui concebido ali o Senhor estava presente, ali os Teus olhos já estavam voltados para mim, e ali o Senhor já me amava e eu lhe era querido. Se naquele momento na qual fui concebido houve algum tipo de manifestação negativa da minha mãe ou do meu pai por não estarem me esperando, ou por não quererem que eu fosse concebido, eu sei que ali o Senhor estava Jesus. Se minha mãe pensou em me abortar, se meus pais não estavam preparados para eu chegar ao mundo, eu sei que eu sou fruto da Sua vontade e do seu amor Jesus! Muito obrigado!
+
+Se na minha concepção o medo, doenças ou qualquer força do mal, quer venha pelo sangue ou geneticamente me foi transmitida enquanto ainda eu estava no ventre da minha mãe, liberta – me agora Senhor e lava – me no seu Teu sangue redentor, quebrando todo e qualquer tipo de julgo hereditário na minha vida. Se houveram dificuldade na minha gestação, se fui rejeitado, se minha mãe passou fome, sede, ficou doente; se a minha mãe sofreu alguma queda, passou nervoso ou foi até mesmo agredida pelo meu pai enquanto eu estava em seu ventre, estou pedindo que venha me curar de todos estes traumas. Se minha mãe se assustou enquanto eu estava no seu ventre; se minha mãe consumiu drogas, se embriagou, se houve no coração da minha mãe o desejo de suicídio; se ela passou situações de raiva, de ódio, e se alguma destas coisas me atingiram, hoje estou pedindo que o Senhor traga toda a cura necessária para minha vida deste período em que eu estava no ventre da minha mãe. Me cura e me liberta Senhor, pois sei que o Teu amor sempre me acompanhou.
+
+Senhor Jesus revive comigo agora e passeia na minha historia, em cada segundo dos meus primeiros anos de vida. Se neste período eu me vi separado(a) dos meus pais por causa da morte de um deles ou até mesmo dos dois. Se por conseqüência de alguma doença eu precisei ser separado do meu pai, da minha mãe. Se por causa do meu nascimento houve situações de conflito na qual eu presenciei, se houve a separação dos meus pais neste período. Se nestes primeiros anos de vida eu me senti sozinho porque éramos em tantos irmãos e eu não entendia que os meus pais precisavam dar atenção à todos, traz toda a cura e libertação que preciso Senhor Jesus. Volta na minha história Jesus e preenche todo o vazio da minha alma. Preenche com o Teu amor todo espaço que deveria ter sido preenchido pelos meus pais e que por diversos motivos não o foram.
+
+Renova-me no Teu amor Senhor e tira toda magoa que eu ainda possa ter dos meus pais ainda por causa deste período, quando era apenas uma criança. Retira de mim todo medo: Medo do escuro, medo de ficar sozinho, medo de ser abandonado, medo dos animais, medo das pessoas, medo até mesmo do meu pai, medo da minha mãe, medo dos meus irmãos; cura – me de todo o tipo de medo Senhor Jesus! Por que o medo me paralisa, e Tu me queres um homem, uma mulher livre!
+
+Senhor Jesus, continua a caminhar na minha historia, mas lhe peço que segures a minha mão e me ajude a caminhar neste período da minha vida. Pois os anos foram – se passando, e precisei ir enfrentando situações novas que até então eu ainda não tinha vivido. E nesta época Senhor eu me senti tão tímido, tinha medo de sair de casa, de conversar com as pessoas. Vivi situações que me senti constrangido e humilhado Senhor, por isso peço que me traga toda a cura que preciso. Quando me senti humilhado pelos meus professores no tempo de escola, me senti humilhado pelos meus colegas, por pessoas próximas a mim. Toda a marca que eu possa ter vivido em relação a catequista, padres, religiosas, traz ao meu coração a cura completa Senhor Jesus.
+
+Me cura ainda Jesus de todo o medo que tive de falar em publico, medo de fracassar, medo das provas na minha escola, e ainda por vezes Jesus, sinto – me preso e paralisado por conseqüência de tudo isso, mas eu já Te louvo e agradeço por tudo o que estas fazendo por mim!
+
+Quero te agradecer Senhor Jesus pela minha mãe. Mesmo se em algum momento da minha vida eu não me senti amado por ela e querido, hoje eu quero liberar o meu perdão à ela, e que entre minha mãe e eu possa agora ser derramado todo o Seu amor. Quero também  pedir perdão à minha mãe. Pelas vezes que possa te – lá ofendida e ferido o seu coração, pelas vezes que eu a magoei e a decepcionei. Perdão minha mãe!
+
+Quero te louvar e agradecer pelo meu pai Senhor Jesus. Peço que o Seu amor seja derramado em nossos corações e traga toda a libertação que precisamos. Quero pedir perdão ao meu pai por todos os desentendimentos que tivemos, quando eu não o compreendi, quando eu o julguei, quando da minha boca saíram palavras duras contra o meu pai: Me perdoa meu pai no Nome de Jesus. E quero também perdoar o meu pai por todos os desencontros que tivemos, e pelas vezes que não me senti amado por ele. Quando vi meu pai chegar alcoolizado em casa e agressivo com minha mãe, comigo e meus irmãos. Eu libero agora pela graça do Teu amor Jesus todo o perdão ao meu pai.
+
+Eu lhe entrego Jesus todos os meus relacionamentos: com meus irmãos, meus avos, tios e tias, primos e amigos e familiares, onde houve qualquer tipo de briga, divisão, disputa, ódio, raiva, inimizades, mal entendidos e todo e qualquer tipo de violência; eu perdôo e libero também o meu perdão!
+
+Obrigado Senhor Jesus por entrar comigo em minha adolescência e juventude, e reviver comigo momentos tão dolorosos. Purifica pelo poder do Teu sangue todo o trauma que eu trago deste período da minha vida. Recebe toda a dor que vivi, que experimentei de pessoas que me eram tão queridas. Toda a magoa, todo medo, todos os questionamentos que vivi sozinho(a), toda a duvida, toda a confusão que trazia dentro de mim. Traz agora ao meu coração uma profunda cura Jesus, pois em tudo o Senhor estava ao meu lado. Cura a minha mente e as minhas lembranças das vezes que fui ridicularizado pelas pessoas; seja pela minha aparência física, pelo meu modo de falar, pela minha condição financeira, pela minha cor; quando me ofenderam dizendo do meu corpo, do meu peso, da minha altura, da minha idade, dos defeitos físicos que eu trazia, preenche o meu coração com o Teu amor, pois eu sou único e muito amado por Ti do jeito que eu era e sou. Libero o meu perdão a todos os que me ofenderam.
+
+Te apresento ainda Jesus todos os meus afetos desta época em minha vida, e caminha comigo, me segura em Teus braços, pois vivi momentos muito dolorosos Senhor, mas eu creio que estavas comigo. Apresento-te os meus namoros, as pessoas que gostei e que me relacionei. Mas por vezes Senhor estas pessoas me machucaram, mentiram para mim, me rejeitaram e acabei tendo ódio pelo sexo oposto. Mas eu quero agora perdoar estas pessoas. Pelas vezes que fui obrigado(a) a fazer algo que eu não queria, até mesmo a me relacionar sexualmente, Senhor Jesus, e isso me marcou muito, me senti muito ferido(a). Pelas vezes que sofri abusos sexuais, Jesus, vindo de pessoas na qual eu confiava e que me eram queridas; mas agora no poder do Teu Nome eu perdôo a todas elas! Me faz um homem, uma mulher nova pela força da tua ressurreição! E me ensina a amar e confiar nas pessoas novamente!
+
+Traz toda a cura e libertação que preciso Senhor Jesus de doenças que tive e me deixaram de cama, afastados das pessoas que eu amava, doenças que me deixaram marcas no meu corpo, na minha mente, na minha lembrança, ainda trago o medo de algumas destas doenças Senhor Jesus, por isso peço que pelo poder do Teu Santo Nome o Senhor me cure e me liberte deste medos!
+
+Vem curando o meu coração de qualquer sentimento que eu vivi de tristeza e solidão, quando tive medo da morte, quando entrei em depressão e quis me isolar de tudo e de todos. Quando perdi pessoas queridas de maneira trágica, por toda dor; preenche o meu coração com o Teu amor Senhor!
+
+Só posso agora pedir perdão a Ti também Senhor Jesus; por não ter Te amado antes, por não ter ido ao Teu encontro antes; mas pelo contrario, quantas vezes Te culpei pelas desgraças na minha vida, quantas vezes briguei Contigo por achar que Tu eras o culpado!
+
+Misericórdia de mim Senhor, piedade, pelas vezes que ainda hoje passam pensamentos de duvidas em minha cabeça, duvidas do Teu amor, do Teu cuidado.
+
+Perdoa – me também pelas vezes que desejei morrer, desejei o suicídio, fui vingativo com as pessoas, pelas vezes que não rezei e que julguei a Tua igreja, os padres, os bispos, os religiosos, cura – me destas dores e me dê o seu perdão Senhor!
+
+Obrigado Senhor Jesus pela minha vida, porque ela é um dom, obrigado porque o Senhor esteve sempre comigo e jamais me abandonou. Obrigado por reviver cada momento da minha vida comigo novamente e fazer que eu enxergue e entenda que sou um filho(a) muito amado(a)!
+
+Obrigado por toda a cura e libertação que o Senhor trouxe às minha emoções, aos meus sentimentos, às minhas lembranças. Obrigado por me preencher com o Seu amor. Faz de mim um homem novo, uma mulher nova. Derrama sobre mim o seu Espirito Santo e faz de mim uma nova criatura.
+
+Eu creio que a partir de hoje serei um homem novo, uma mulher nova, porque sei que fui curado e liberto pelo Teu amor, obrigado Senhor Jesus!
+
+Deus abençoe voce!
+
+        ore: Pai Nosso, Ave Maria e Gloria ao Pai
+
+        site cancao nova
+    </string>
+    <string name="curafisicaeespiritual">
+        Tu és o Médico divino. Tu dás a Vida e a Vida em plenitude àqueles que Te buscam. Por isso, hoje, Senhor, de um modo especial, quero pedir a cura de todo tipo de doença, principalmente daquela que me aflige neste momento.
+
+Eu sei que não queres o mal, não queres a doença que é a ausência da saúde, porque és o Sumo Bem. Opera, em mim, uma profunda cura espiritual e, se for da Tua Vontade, também uma cura física. Que seja operada diretamente pela ação poderosa de Teu Espírito Santo ou através do médico e dos remédios ! Aumenta a minha fé no Teu Poder, Senhor, e no infinito Amor que tens por mim. Aumenta minha fé, Senhor, que às vezes se encontra tão enfraquecida. Eu acredito no Teu poder curador, meu Deus, e já agradeço humildemente por toda obra que estás realizando em meu coração e em meu corpo, neste momento.
+
+Além de mim, Senhor, quero também apresentar, todos os doentes que me pediram orações. Tu conheces a cada um deles, sabes as provações pelas quais estão passando ! Tem misericórdia, Senhor, vem em socorro também destas pessoas que padecem enfermidades. Senhor, eu Te bendigo, porque clamei a Ti e Tu me ouviste. Minha alma, por Tuas mãos benditas, foi tirada da escuridão. Ó fiéis do Senhor, cantai a sua glória, dai graças ao seu Santo Nome, porque só Ele é poderoso e digno de eterno louvor.
+
+    </string>
+    <string name="curadostarumas">
+        Senhor, coloco-me diante de Ti em atitude de oração. Sei que Tu me ouves, penetras e vês. Sei que estou em Ti e que Tua força está em mim. Olha para minha vida, para todos os acontecimentos do meu passado. Tu sabes, Senhor, o quanto me custa sofrer por lembranças dolorosas e traumas.[www.arcanjomiguel.net]
+
+Sei que Tu não Te alegras com o sofrimento dos Teus Filhos. Dá-me, Senhor, força e coragem para vencer os momentos de desespero e de cansaço. [www.arcanjomiguel.net]
+
+Torna-me paciente e compreensivo, simples e modesto. Neste momento, ofereço-Te todas as minhas preocupações, angústias e sofrimentos, para que eu seja mais digno de Ti.[www.arcanjomiguel.net]
+
+Liberta-me no poder do Teu Nome de todos os traumas que trazem conseqüências à minha vida hoje, até impedindo-me de amar e de viver a Tua Palavra.[www.arcanjomiguel.net]
+
+Aceita, Senhor, que eu una meus sofrimentos aos sofrimentos do teu Filho Jesus, que, por amor aos homens, deu a vida no alto da cruz. E agora eu Te peço, Senhor: ajuda todos os que sofrem de distúrbios emocionais, doenças psíquicas, e dai a todos a plenitude de vida que só Tu podes nos conceder. Amém!.
+
+        site arcanjomiguel.net
+    </string>
+    <string name="curadaarvoregenealogica">
+        Precisamos pedir, em nome de Jesus, a cura de todas as enfermidades.
+        Façamos uma oração simples, pedindo a Jesus que nos conceda essa cura pelos nossos antepassados que não acreditavam em Deus e pela falta de conversão destes,
+        pela falta de vontade de viver a verdade da fé, a dureza do coração, os padrões errados de comportamento e toda moralidade deturpada, quebrando todos males presentes na nossa vida.
+
+        “Senhor, eu peço a cura da minha vida, família e árvore genealógica.
+        Cura, bondoso Senhor, todas as doenças do corpo, os problemas hormonais,
+        digestivos, os problemas no sangue, nas células e todas espécie de câncer,
+        toda central de distribuição de células cancerígenas herdadas pelos antepassados,
+        minha genética e corrente sanguínea. Que todo mal físico seja destruído. A diabetes,
+        o cérebro, a corrente sanguínea, os problemas dos ossos e cardíacos. Senhor,
+        cure todo mal psicológico, afetivo, emocional, mental e esquizofrenia que possa estar na minha família,
+        na minha árvore genealógica e os que vieram de maldições.”
+
+
+
+        cancao nova
+    </string>
+    <string name="curanocasamento">
+        No poder do Nome de Jesus Cristo (sinal da cruz), oro contra
+
+todos os padrões de infelicidade matrimonial profundamente
+
+inseridos em minha família.
+
+Digo NÃO e clamo o Sangue de Jesus a toda supressão de cônjuge,
+
+e todas as expressões de desamor conjugal. Faço cessar todo ódio,
+
+desejo de morte, maus desejos e más intenções nos relacionamentos conjugais.
+
+Ponho fim a toda transmissão de violência, à todo comportamento vingativo,
+
+negativo, à toda infidelidade e engano. Detenho toda transmissão negativa
+
+que bloqueia todos os relacionamentos duráveis. Renuncio a todas as tensões familiares,
+
+divórcio e endurecimento de corações, no Nome de Jesus (sinal da cruz). Ponho um fim
+
+a todo sentimento de sentir-se preso na armadilha de um casamento infeliz e todo sentimento
+
+vazio e fracasso. pai, por Jesus Cristo, perdoai a meus parentes por todos os modos pelos quais
+
+possam ter desonrado o Sacramento do Matrimônio. por favor, fazei surgir em minha linha de família,
+
+muitos casamentos profundamente comprometidos, cheios de amor, fidelidade, lealdade, bondade e respeito.
+
+Amém!
+
+        site renovacaocarismatica
+    </string>
+    <string name="curadascriancas">
+        "Senhor Jesus, no poder de Teu Nome, eu clamo que as crianças da minha familia sejam lavadas no Teu Sangue e libertas de todos os traumas,
+        bloqueios e feridas causadas por tentativas de aborto, nascimento prematuro e difícil,
+        gravidez indesejada e anormal; rejeitadas e nascidas ou concebidas fora do casamento.
+        Oro sobre toda desvalorização da vida e clamo que sejam
+        lavadas no Teu Sangue e libertas de todas as experiências negativas de violência física e emocional,
+        abandono e abuso. Peço-Vos Senhor Jesus, que cures as feridas e detenhas esse domínio do mal.
+        Pai, peço-Vos perdão pelos atos de seus antepassados que fizeram mal à essas crianças.
+        Fazei surgir na linha de família delas pessoas que amem suas crianças, as eduquem de maneira a Vos adorar e glorificar e que elas sintam-se verdadeiramente amadas.
+        Amém!"
+
+"Disse-lhe Jesus: Deixai vir a Mim as criancinhas e não as impeçais, porque o Reino dos Céus é para aqueles que se lhes assemelham". Mateus 19,14
+
+        livro [oracoes selecionadas por cura, libertacao e intercessao.]
+    </string>
+    <string name="curasexual">
+
+Senhor Jesus, clamo no poder do Vosso Nome † um fim a todas as transmissões de pecados sexuais dos meus meus antepassados, corto todas as vias e digo NÃO a todas as tendências para a exibição indecente, estupro, fornicação, molestamento, incesto, perversão e masturbação.
+Renuncio a toda bestialidade, masoquismo, sadismo, ninfomania, luxúria e prostituição em minha linha de família.
+Detenho toda agressão sexual, desordens sexuais de personalidade, traumas sexuais e comportamento anormal.
+Ordeno no poder do Nome de Jesus † a todo demônio agarrado a esses padrões que agora se vá sob a Cruz de Jesus.
+Golpeio com a espada do Espírito Santo essa cadeia de males e quebro essas ligações.
+Pai, perdoai! Clamo o Sangue precioso de Nosso Senhor Jesus Cristo sobre toda a minha linha de família.
+Trazei saúde e restauração sexual onde havia enfermidade. Que minha linha de família brilhe com a beleza de uma sexualidade sadia.
+Que toda expressão sexual seja pura e agradável a Vós, Senhor, eu vos bendigo, adoro e louvo.
+Muito obrigado por derramardes a Vossa luz, Vossa plenitude e Vossa benção sobre toda essa área de minha árvore genealógica. Amém!
+
+"Esta é a vontade de Deus: a vossa santificação; que eviteis a impureza; que cada um de vós saiba possuir o seu corpo santa e honestamente, sem se deixar levar pelas paixões desregradas, como os pagãos que não conhecem Deus".(I Tes 4,3-5)
+
+Coração de Maria, sede de misericórdia...rogai por nós!
+
+        livro [oracoes selecionadas]
+    </string>
+    <string name="curadosmedos">
+        Senhor Jesus, no poder de seu Nome poderosíssimo, ponho um fim, agora, a todas as formas de medo em minha árvore genealógica. Tomo autoridade sobre todo medo de rejeição e de fracasso. Senhor Jesus, na autoridade do teu Nome, digo não a todo medo de água, de multidões, de ficar sozinho, de sair sozinho, de Deus, da morte, de ficar no escuro, de deixar a casa, de espaços fechados ou abertos, de falar em público, de falar em voz alta, de falar a verdade, de tomar decisões, de dirigir, de altura, de voar, de insetos, de assaltos, de estupro, de sequestro, de perder um ente querido, de doenças, de ser humilhado, de confiar nas pessoas; a todo medo do sofrimento e da alegria.
+
+Senhor, que minha família conheça. em todas as gerações, que não há medo no amor. Que Vosso perfeito amor encha de tal modo a história de minha família, que toda a lembrança de medo deixe de existir. Eu Vos louvo e agradeço na certeza de ser atendido. Amém!
+
+"No amor não há temor. Antes, o perfeito amor lança fora o temor, porque o temor envolve castigo e quem teme não é perfeito no amor" (I Jo 4,18)
+
+Coração de maria, consolo dos aflitos... rogai por nós!
+
+        livro [oracoes selecionadas]
+    </string>
+    <string name="curadehabitoscompulsivos">
+        Senhor Jesus no poder de Seu Nome † quebro agora os efeitos de hábitos compulsivos.
+
+Clamo o Sangue de Jesus a purificar e libertar todas as áreas de dependência dos vícios de:
+        jogar, comprar, fofocar, mentir, beber, drogar-se; desmoralizar, criticar, julgar, trair o próximo; de roer unhas.
+        Corto no Seu † poder todos os padrões de acumular e dilapidar recursos e talentos, venho contra a avareza e o furto.
+
+Pai, perdoai e libertai minha família da servidão a todo hábito compulsivo, com vossa misericórdia, graça e generosidade.
+
+                              Amém!
+
+        "Acaso não sabeis que os injustos não hão de possuir o Reino de Deus? Não vos enganeis: nem os ladrões, nem os avarentos...
+        nem os assaltantes hão de possuir o Reino de Deus.
+
+        Tudo me é permitido, mas nem tudo convém. Tudo me é permitido, mas eu não me deixarei dominar por coisa alguma" (ICor 6,9.10.12).
+    Sagrado Coração de Maria, sede de misericórdia... rogai por nós!
+
+        livro [oracoes selecionadas]
+    </string>
+    <string name="curamental">
+        om o poder do Sangue de Jesus † (sinal da cruz), eu quebro os
+padrões de doença mental e insanidade codificadas em meu sistema ancestral.
+Venho contra todo comportamento anormal, anti-social, paranóia, esquizofrenia, padrões de agressividade e passividade, desordens da personalidade e hábitos nervosos.
+No poder do Seu Nome, Jesus † (sinal da cruz), venho contra toda inflexibilidade, perfeccionismo, padrões maníacodepressivos e modos estranhos.
+Senhor, entre nestas áreas com Vosso perdão e Vossa paz. Pai, que a saúde e a integridade mental sejam cravadas na minha linha de família. Que cada um tenha a mente de Cristo.
+Que tenhamos o pensamento claro, o equilíbrio emocional e padrões sadios de relacionamento.
+Clamo o Sangue de Jesus a nos lavar e a nos libertar de todos os sombrios padrões de opressões emocionais e espirituais e também a incapacidade de brincar, se divertir e expressar alegria.
+Eu Vos peço, Jesus, que no poder do Espírito Santo a alegria e o equilibrio emocional se levante em minha linha de família.
+Senhor, eu Te louvo e Te agradeço desde já na certeza de me atender.
+
+        Amém!
+
+         E não sede conformados com este mundo, mas sede transformados pela renovação do vosso entendimento,
+        para que experimenteis qual seja a boa, agradável, e perfeita vontade de Deus.
+        Rm 12,2
+
+        Coraçã de Maria, segundo o coração do prório Deus...rogai por nós!
+
+
+
+        livro [oracoes selecionadas]
+    </string>
+    <string name="curadalingua">
+         “Senhor Jesus, no poder de Teu Nome, Te clamo que Tu interrompas e libertes todas as desordens de comunicação:
+        incapacidade de comunicar-se, medo de falar alto, defeitos da fala e especialmente gagueira.
+Muito obrigado, Senhor, por curar o seu povo e creio que Tu estás recriando todo relacionamento e o
+        tornando sadio e normal na Tua graça e derrubando toda expressão de ferir os outros verbalmente,
+        toda blasfêmia, calúnia, difamação, maledicência, fofoca e toda traição pela língua.
+Pai, perdoai e fazei que na minha linhagem surjam pessoas que comuniquem cura e restauração.
+Senhor, Te louvo e agradeço porque Tu renovas tudo. Amém!
+“Meus lábios e minha alma que resgatastes exultarão de
+        alegria quando eu cantar a vossa glória. E, dia após dia,
+        também minha língua exaltará vossa justiça.”
+
+        Coraçã de Maria, de afável ternura...rogai por nós!
+
+        LIVRO [ORACOES SELECIONADAS]
+
+    </string>
+    <string name="curadadepressao">
+        Senhor Jesus, sois nosso Deus maravilhoso e bom. Vós nos conheceis e amais porque nos fizestes para vós.
+Cuidais de todos os detalhes de nossas vidas, mas não sabemos, interpretamos mal tanta coisa, guardando ressentimentos, mágoas, frustrações, tantas coisas que escondemos para ninguém ver, nem os vossos olhos.
+E isso vai amargurando a nossa vida e nos tornando cada vez mais solitários, mais depressivos e procura-mos encontrar alívio nos outros, exigindo deles a atenção e a libertação que não podem dar.
+Por isso vos pedimos que visiteis cada um de nós, nesses quar¬tinhos escuros, fechados e mal cheirosos, que quere¬mos abrir para a vossa presença, a fim de que possais arejá-los, iluminá-los, aquecê-los com o vosso amor e a vossa graça.
+E assim possamos de novo relacio¬nar-nos normalmente com os nossos irmãos e convosco conforme quereis. Vós sois maravilhoso e bom.
+Muito obrigado,Senhor! Glória a Vós, Senhor! Amém!
+
+        site devocaoefeblog
+    </string>
+    <string name="curaatravesdahumildade">
+
+"Reconhecei a vossa miséria, afligi-vos e chorai.
+
+Converta-se o vosso riso em pranto e a vossa alegria em tristeza.
+
+Humilhai-vos na presença do Senhor, e Ele vos exaltará" (Tg 4,9-10).
+
+Coração de Maria, abismo de humildade ... rogai por nós!
+
+Senhor humilde e manso de coração, ajuda-me a aprender a amar a humildade.
+
+Refreia minha língua para que eu não fale de mim mesmo.
+
+Acalmame em ocasiões em que esteja para tornar-me impaciente, descontente com minha sorte.
+
+Ajuda-me a pensar menos em mim mesmo e mais na Santíssima Trindade e em meus semelhantes.
+
+Ó Jesus, manso e humilde de coração, tem piedade de mim.
+
+Do desejo de ser estimado, livra-me, ó Jesus.
+
+Do temor de ser desprezado, livra-me, ó Jesus.
+
+Do temor de ser recusado, livra-me, ó Jesus.
+
+Do temor de ser difamado, livra-me, ó Jesus.
+
+Do temor de ser esquecido, livra-me, ó Jesus.
+
+Do temor de ser ridicularizado, livra-me, ó Jesus.
+
+Do temor de ser tratado injustamente, livra-me, ó Jesus.
+
+Do temor de ser julgado suspeito, livra-me, ó Jesus.
+
+Que os outros sejam mais amados do que eu, ó Jesus, conceda-me a graça deste santo desejo.
+
+Que os outros cresçam na estima do mundo e que eu diminua, ó Jesus, conceda-me a graça deste santo desejo.
+
+Que aos outros se dê mais confiança no trabalho e que eu seja deixado de lado, ó Jesus, conceda-me a graça deste
+
+santo desejo.
+
+Que os outros sejam louvados e eu negligenciado, ó Jesus, conceda-me a graça deste santo desejo.
+
+Que os outros sejam preferidos a mim em tudo, ó Jesus, conceda-me a graça deste santo desejo.
+
+Que os outros se tornem mais santos do que eu, contanto que eu também me torne tão santo quanto
+
+puder, ó Jesus, conceda-me a graça deste santo desejo.
+
+Pai-Nosso, Ave-Maria, Glória ao Pai.
+
+Coração de Maria, abismo de humildade ... rogai por nós.
+
+        livro [oracoes selecionadas]
+    </string>
+    <string name="curaparaumamortefeliz">
+        Senhor Jesus, clamo a Vossa intercessão junto ao Pai, por todas as pessoas na história de minha família que morreram cedo, não amadas, não choradas, sem oração e sem amoroso enterro cristão.
+E a todos os que experimentaram mortes terríveis, dolorosas e horríveis - mortes por violência,por acidente, envenenamento, tiros, fogo, explosões, facadas, enforcamento, afogamento, atos de guerra ou morte por animais.
+Ergo agora até Vós, Senhor, meus antepassados que morreram mortes de suicídio, Senhor, cessa agora no Vosso poder † toda transmissão de tendência para mortes anormais e feias.
+Senhor, que Vosso amor misericordioso, que perdoa e cura, noa toque ternamente e que doravante todos conheçamos mortes cheias de amor e ternura; que experimentamos a transição da vida para a morte num contexto plenamente cristão.
+Pai, que ninguém em minha linha de família, de agora em diante morra sem ter conhecido pessoalmente o Senhor Jesus Cristo. Amém!
+
+"Disse-lhe Jesus: Eu sou a ressurreição e a vida. Aquele que crê em mim, ainda que esteja morto, viverá. E todo aquele que vive e crê em mim, jamais morrerá."(Jo 11,25-26)
+
+Coração de Maria, porta do céu...rogai por nós!
+
+        livro [oracoes selecionadas]
+    </string>
+
+    //grupo 3
+    <string name="oracaodointercessor">
+        Deus, nosso Pai, vós nos enviastes vosso Filho amado, para a salvação do mundo.
+Sentado agora à vossa direita,
+Ele não cessa de interceder por todos  os seus irmãos humanos.
+Movidos pelo Espírito Santo, queremos unir-nos à sua oração, para a salvação de  todos.
+Que sacerdotes e casais sejam fiéis a seus compromissos, a serviço da comunhão na Igreja, irradiando o amor que colocastes em seu coração.
+Que todos os vossos filhos, em todo o mundo, descubram a felicidade que nos dais e vivam com respeito e dignidade, na alegria e na paz.
+Deus, nosso Pai, por intercessão de Nossa Senhora e de todos os Santos concedei-nos a nós, que somos intercessores junto a vós, realizar nosso serviço de intercessão, por amor a vós e a todas as pessoas.
+
+Amém.
+    </string>
+    <string name="intercessaoconversaodealguem">
+        Senhor, Pai Eterno, em Nome do teu Filho, Nosso Senhor Jesus Cristo (sinal da cruz), derrubamos, com o poder do Espírito Santo, todas as fortalezas da mentira, engano, escravidão espiritual, presunção e orgulho na vida de .... (falar o nome da pessoa)
+
+Senhor Pai Amoroso, usando a autoridade que nos foi concedida pelo Senhor Ressuscitado, vencedor de todo mal e da morte eterna, derrubamos as barreiras que se levantam em .... (falar o nome da pessoa) contra Teu conhecimento e adoração.
+
+Senhor Pai Justo e Santo, em Nome de Cristo Ressuscitado, único Senhor do universo, nós agora expulsamos de .... (falar o nome da pessoa) todas as trevas e influências malignas em todas as áreas do seu ser, assim como todo e qualquer domínio que Teu inimigo, Senhor, possa ter sobre .... (falar o nome da pessoa)
+
+Neste instante, pelo Sangue do Senhor Jesus, que está na Sua glória intercedendo por nós, libertamos .... (falar o nome da pessoa) para que ele viva reconciliado Contigo, se converta, confesse seus pecados e seja, doravante, Teu (Tua) filho (a) obediente. E agradecemos-Te por isto, Senhor.
+
+Pela autoridade do Nome onipotente do Senhor Jesus (sinal da cruz), eu quebro todo poder de satanás sobre a vida de .... (falar o nome da pessoa), e reclamo sua salvação, cura e libertação de todo malefício, macumba, controle mental, insegurança, medo, para que "a sua alegria seja perfeita" (João 16, 24) e o Sangue precioso do Senhor Jesus produza em (falar o nome da pessoa) os frutos do Espírito Santo.
+
+Santa Maria, Mãe de Deus, roga por este teu (tua) filho (a) .... (falar o nome da pessoa) por sua conversão, salvação e libertação.
+
+Amém e Amém! Creio em Deus Pai Todo-Poderoso ...
+
+        livro [oracoes selecionadas]
+    </string>
+    <string name="intercessaopelacurainteriordealguem">
+        Senhor Jesus eu lhe peço que entre no coração de ........ (diz o nome da pessoa)
+        e toque aquelas experiências de vida que precisam ser curadas. Você conhece muito melhor o ..............
+        do que ele próprio conhece a si mesmo. Derrame, então,
+        o Seu amor em todos os cantos do coração dele.
+        Onde quer que o encontre ferido, toque-o, console-o,
+        liberte-o. Se ele se sente só, abandonado, rejeitado pela humanidade,
+        conceda-lhe mediante seu amor regenerador, uma nova consciência do seu valor como pessoa.
+        Jesus, eu entrego o .............. totalmente a Você: seu corpo, mente e espírito;
+        e agradeço-lhe por restaurar a sua integridade. Obrigado, Senhor. Amém. Aleluia!
+
+        livro [oracoes selecionadas]
+    </string>
+    <string name="intercessaobencaodealguem">
+        (Obs.: Esta oração deve ser feita como Novena, em favor de uma pessoa que tenha amarras espirituais porque outras pessoas guardam mágoas dela).
+
+Onde houver "(...” falar o nome da pessoa por quem está se fazendo esta Novena.)
+
+Senhor, a Tua Palavra diz que, em Teu Nome, devo abençoar as pessoas: as que amo, aquelas que ainda não consigo amar, e aquelas pelas quais o Senhor me pede para interceder.
+
+Eu sei Jesus, que a bênção é fruto do Teu amor dentro de mim e agindo através de mim.
+
+Por isso, eu agora Te peço: enche o meu coração com o Teu amor para que todas estas pessoas sejam atingidas, agora, por Teu amor. (Medite um instante).
+
+Sim, Senhor, creio que neste momento o Teu amor está me plenificando, e com este amor posso agora abençoar:
+
+Senhor, que a Tua bênção, durante esta Novena, restaure o coração do (a)... e o (a) encha de amor e paz, e de todos os bens que Te agrade a ele (a) conceder.
+
+Em nome do (a)... Eu abençoo todas as pessoas que dele (a) guardaram rancor e mágoa, e também as perdoo por todo mal que possam ter feito contra...
+
+Eu abençoo, em teu Nome, † Senhor Jesus Cristo, tudo que o (a) cerca: sua casa, seu trabalho, seus empreendimentos, seus entes queridos e todos os bens que lhe destes.
+
+Por esta bênção, Senhor, eu Te agradeço.
+
+E agora, Jesus, peço-Te que nos abençoes e nos capacite a viver sob as Tuas bênçãos.
+
+Ó Maria Imaculada, medianeira de todas as graças, confirma em nós as bênçãos do Senhor! Amém!
+
+Credo, Pai-Nosso, Ave-Maria e Glória.
+Divino Espírito Santo, iluminai-nos! (3x)
+
+Amados, desça sobre todos vós a bênção de Deus Todo Poderoso em Nome:
+
+Do Pai †, e do Filho †, e do Espírito Santo †. Amém!
+
+        livro [oracoes selecionadas]
+    </string>
+    <string name="intercessaopelanacao">
+        enhor Jesus, envia teu Santo Espírito sobre toda a nação brasileira e sobre todos os cidadãos, sobre a Renovação Carismática Católica e sobre todos os milhões de habitantes deste país.
+
+Tem misericórdia do povo sofrido que se encontra nas periferias da sociedade. Nós te pedimos, Senhor, que envies sobre nós o Espírito Santo, dando-nos a unção necessária para enxergarmos o que cada um é capaz de fazer, em sua própria medida e em sua esfera de atuação. Que sejamos testemunhas da ética em nossa vida particular e testemunhemos tudo o que aprendemos com a nossa santa e amada Igreja.
+
+Sabemos que a santidade precisa ser traduzida em ações no cotidiano: na fila do banco, no trabalho, na família, na rua e em todos os ambientes que visitamos. Nós te pedimos esta graça da santidade e que sejamos testemunhas de um novo tempo!
+
+Nós te pedimos que esta nova mentalidade alcance todo o povo brasileiro, inclusive as autoridades constituídas, os gestores de instituições e órgãos públicos. Que a cegueira em seus olhos possa cair e ser removida. Que eles enxerguem todo o mal que existe e que ele fique tão claro, como a nudez de Adão e Eva diante de Deus no Jardim do Éden. Que eles, nossos gestores e autoridades, queiram retratar-se e fazer o bem para esta nação.
+
+Que possamos testemunhar, no dia a dia, os valores do Evangelho, como uma verdadeira avalanche de santidade, alcançando a todos, para que o exemplo converta mais pessoas do que nossas palavras.
+
+Concede-nos a graça de ser não apenas um país próspero, com imensas riquezas naturais, mas uma nação que seja sinal para o mundo inteiro, na fé, conduta, caráter, postura, ética e zelo pela lei que criamos.
+
+Permite-nos, Senhor, enxergar com clareza o que devemos falar e em que devemos influir. Que o Espírito Santo ilumine nossas mentes e coloque brilho nos nossos olhos!
+
+Amém!
+
+        site ccbrasil.org
+    </string>
+
+    //GRUPO 4
+    <string name="armaduradocristao">
+        Pai celeste, eu agora, pela fé, clamo a proteção da Vossa armadura, para que eu possa
+permanecer firme contra satanás e todas as suas hostes e, no nome do Senhor Jesus, vencê-lo-ás.
+
+Eu tomo a Vossa verdade contra as mentiras e os erros do inimigo astucioso.
+
+Eu tomo a Vossa Justiça para vencer os maus pensamentos e as acusações de satanás.
+
+Eu tomo o equipamento do Evangelho da paz e deixo a segurança e os confortos da vida para combater o inimigo.
+
+E, acima de tudo, eu tomo a Vossa fé para barrar o caminho da minha alma às dúvidas e incredulidades.
+
+Eu tomo a Vossa salvação e confio em Vós para proteger o meu corpo e a alma contra os ataques de satanás.
+
+Eu tomo a Vossa Palavra e oro para que o Espírito Santo me capacite a usá-la  eficazmente contra o inimigo, a cortar toda escravidão e a libertar todo cativo de satanás, no poderoso e conquistador nome de Jesus Cristo, meu Senhor.
+
+Eu me visto desta armadura, vivendo e orando em completa dependência de ti, Bendito Espírito Santo.
+
+Amém.
+
+        livro [oracoes selecionadas]
+    </string>
+    <string name="saomiguelarcanjo">
+        Glorioso São Miguel Arcanjo,
+poderoso vencedor das batalhas espirituais,
+vinde em auxílio das minhas necessidades
+espirituais e temporais.
+
+Afugentai de minha presença todo mal
+e todo ataque e ciladas do inimigo.
+Com sua poderosa espada de luz,
+derrotai toas as forças malignas
+e iluminai meus caminhos
+com a luz de tua proteção.
+
+Arcanjo Miguel,
+do mal: libertai-me;
+do inimigo: livrai-me;
+das tempestades: socorrei-me;
+dos perigos: protegei-me;
+das perseguições: salvai-me!
+
+Glorioso São Miguel Arcanjo,
+pelo poder celeste a vós conferido,
+sê para mim o guerreiro valente
+e conduzi-me nos caminhos da paz.
+
+Amém!
+
+        cancao nova
+    </string>
+    <string name="magnificat">
+        "A minha alma glorifica ao Senhor
+E meu espírito exulta de alegria
+
+em Deus, meu Salvador,
+Porque olhou para a sua pobre serva.
+Por isto, desde agora, me proclamarão bem-aventurada todas as gerações,
+porque realizou em mim maravilhas,
+
+aquele que é poderoso e cujo nome é Santo.
+
+Sua Misericórdia se estende, de geração em geração, sobre os que o temem.
+
+Manifestou o poder do seu braço:
+Desconcertou os corações dos soberbos.
+Derrubou do trono os poderosos
+e exaltou os humildes.
+Saciou de bens os indigentes
+e despediu  de mãos vazias os ricos.
+Acolheu a Israel, seu servo,
+lembrado de sua misericórdia,
+conforme prometera a nossos pais,
+em favor de Abraão e de sua posteridade, para sempre."
+Glória ao Pai, ao Filho, e ao Espírito Santo.
+Assim como era no princípio, agora e sempre,
+
+por todos os séculos dos séculos  Amém.
+
+www.obradoespiritosanto.com
+
+
+    </string>
+    <string name="abandonoemdeus">
+        Meu Pai, entrego-me a Vós.
+Fazei de mim o que for do Vosso agrado.
+O que quiserdes fazer de mim, eu Vós agradeço.
+Estou pronto para tudo, aceito tudo,
+desde que Vossa vontade se realize em mim
+e em todas as Vossas criaturas.
+Não desejo outra coisa, meu Deus!
+Deponho minha alma em Vossas mãos.
+Eu vo-la dou, meu Deus, com todo amor do
+meu coração porque Vos amo
+e porque para mim é uma necessidade de amor
+dar-me, entregar-me em Vossas mãos, sem medida,
+com uma confiança infinita, pois Sois meu Pai.”
+(Charles de Foucauld)
+
+        site cancao nova
+    </string>
+    <string name="augustarainhadapaz">
+        Oração revelada
+ao Bem-aventurado Padre Louis-Edouard Cestac
+(13 de janeiro de 1864)
+
+        Augusta Rainha dos céus, soberana mestra dos Anjos,
+Vós que, desde o princípio, recebestes de Deus
+o poder e a missão de esmagar a cabeça de Satanás,
+Nós vo-lo pedimos humildemente,
+Enviai vossas legiões celestes para que,
+sob vossas ordens, e por vosso poder,
+Elas persigam os demônios, combatendo-os por toda a parte,
+Reprimindo-lhes a insolência, e lançando-os no abismo.
+Quem é como Deus?
+Ó Mãe de bondade e ternura,
+Vós sereis sempre o nosso Amor e a nossa esperança.
+Ó Mãe Divina,
+Enviai os Santos Anjos para nos defenderem,
+E repeli para longe de nós o cruel inimigo.
+Santos Anjos e Arcanjos,
+Defendei-nos e guardai-nos. Amém.
+
+        Auguste Reine des cieux, souveraine maîtresse des Anges,
+Vous qui, dès le commencement, avez reçu de Dieu
+le pouvoir et la mission d'écraser la tête de Satan,
+Nous vous le demandons humblement,
+Envoyez vos légions célestes pour que,
+sous vos ordres, et par votre puissance,
+Elles poursuivent les démons, les combattent partout,
+Répriment leur audace, et les refoulent dans l'abîme.
+Qui est comme Dieu?
+O bonne et tendre mère,
+Vous serez toujours notre Amour et notre espérance.
+O Divine Mère,
+Envoyez les Saints Anges pour nous défendre,
+Et repoussez loin de nous le cruel ennemi.
+Saints Anges et Archanges,
+Défendez nous, gardez nous.
+
+
+        fonte: site padrepauloricardo.org
+    </string>
+    <string name="salmo91">
+        Aquele que habita no esconderijo do Altíssimo, à sombra do Onipotente descansará.
+        Direi do Senhor: Ele é o meu Deus, o meu refúgio, a minha fortaleza, e nele confiarei.
+        Porque ele te livrará do laço do passarinheiro, e da peste perniciosa.
+        Ele te cobrirá com as suas penas, e debaixo das suas asas te confiarás; a sua verdade será o teu escudo e broquel.
+        Não terás medo do terror de noite nem da seta que voa de dia,
+        Nem da peste que anda na escuridão, nem da mortandade que assola ao meio-dia.
+        Mil cairão ao teu lado, e dez mil à tua direita, mas tu não serás atingido.
+        Somente com os teus olhos contemplarás, e verás a recompensa dos ímpios.
+        Porque tu, ó Senhor, és o meu refúgio. No Altíssimo fizeste a tua habitação.
+        Nenhum mal te sucederá, nem praga alguma chegará à tua tenda.
+        Porque aos seus anjos dará ordem a teu respeito, para te guardarem em todos os teus caminhos.
+        Eles te sustentarão nas suas mãos, para que não tropeces com o teu pé em pedra.
+        Pisarás o leão e a cobra, calcarás aos pés o filho do leão e a serpente.
+        Porquanto tão encarecidamente me amou, também eu o livrarei, pô-lo-ei em retiro alto, porque conheceu o meu nome.
+        Ele me invocará, e eu lhe responderei; estarei com ele na angústia; dela o retirarei, e o glorificarei.
+        Fartá-lo-ei com longura de dias, e lhe mostrarei a minha salvação.
+
+        Salmos 91;
+
+
+    </string>
+
+    //GRUPO 5
+    <string name="oracaodelibertacao">
+        É bom estarmos neste momento em silêncio e num lugar que nos favoreça este clima de Oração.
+Oracao de Libertacao IPai de amor e de bondade eu te louvo e te agradeço por teres enviado Teu filho Jesus que venceu o pecado e a morte para minha salvação. Agradeço por teres enviado o Espírito Santo que me fortalece, me guia e me leva para a plenitude da Vida.
+
+Senhor Jesus Cristo, coloco-me aos pés da Tua Cruz e peço que me laves com Teu precioso Sangue que jorra do teu Sacratíssimo Coração e das Tuas Santas Chagas.
+
+Lava-me Jesus, na água viva que jorra do Teu Coração transpassado pela lança. Peço que me escondas em Vossas Santas Chagas!
+
+Pai celestial, deixe que a água purificadora jorrada na Cruz para a redenção do mundo flua através das gerações maternas e paternas, para que minha linhagem familiar seja purificada de Satanás e do pecado. Venho diante de Ti, Pai, pedir perdão por mim mesmo, para os meus parentes e para os meus ancestrais por qualquer invocação maligna que tenham feito a poderes que se opõem a Ti e que não honram a Jesus Cristo, Teu Filho. No Sagrado e poderoso Nome de Jesus, eu agora reivindico todo e qualquer território que tenha sido entregue a Satanás e o coloco sob o Senhorio de Jesus Cristo.
+
+Pelo poder do Teu Espírito Santo, revela-me Pai, todas as pessoas a quem preciso perdoar e todas as áreas de pecados que por mim não foram confessados, e dai me a verdadeira contrição de coração.
+
+Revela – me os aspectos de minha vida que não Te agradam, as atitudes que permitiram ou poderiam permitir a entrada de Satanás na minha vida. Entrego – Te toda a falta de perdão; entrego- Te meus pecados; e também Te entrego todos os meios que Satanás usou para entrar na vida.
+
+Senhor Jesus, na autoridade do Vosso Nome, suplico a Vós que amarre aos pés da Vossa Cruz, todo espírito maligno do ar, da terra, da água e dos infernos e das regiões dos mortos, assim como todos e quaisquer espíritos enviados do mundo Satânico.
+
+Clamo o Precioso Sangue de Jesus Cristo sobre todas estas situações e sobre quaisquer espíritos que queiram se vingar de mim.
+
+Selo no Teu Santo Nome e em Teu Precioso Sangue, a mim, meus parentes, familiares, esta casa, este lugar, a igreja, carros, e todos os meus bens como propriedade Vossa, sendo eu apenas um administrador. No Teu Nome quebro agora e desmancho toda e qualquer maldição, feitiçaria, encantamentos, embustes, armadilhas, mentiras, obstáculos, influência espiritual maligna, praga, avidez, jugo hereditário, conhecido e desconhecido, e todo desequilíbrio mental, psicológico, depressão e doenças de qualquer tipo que venha pelo sangue ou genética, incluindo vícios, comportamentos e pecados.
+
+Em nome de Jesus rompo a transmissão de todo e qualquer  voto Satânico, pacto, ligação do espírito e da alma e trabalhos Satânicos.
+
+Em Nome e pelo poder de Jesus seja quebrado e desmanchado toda e qualquer ligação com astrologia; feiticeiros, encantadores, videntes, mapas astrais, ervas espiritas, leitura de mão, cristais, curandeiros, benzedores, búzios, taro, cartomantes, médiuns; movimentos da Nova Era; ocultismo, guias espiritas, pais de santo; mães de santo, bruxas, vodu, kardecismo, candomblé e umbanda.
+
+Em nome de Jesus, que seja desmanchado agora todos os efeitos de participações em sessões de espiritismo, adivinhações, evocações dos mortos para receber mensagens mediúnicas, tudo que foi feito e ingerido nestes lugares por comidas, bebidas, banhos de descarrego, oferendas, e tudo que ficou de nomes, fotografias, objetos pessoais, tudo que foi feito nas encruzilhadas, matas, pedreira, nas águas e cemitérios.
+
+Espírito Santo, revela-me através de palavra de ciência quaisquer espíritos negativos que, de algum modo, tenham se prendido a mim; tais como: espirito de raiva, arrogância, amargura, brutalidade, espirito de confusão, crueldade, decepção, inveja, medo, espirito de ódio, insegurança, ciúme, orgulho, ressentimento ou pânico. Em nome de Jesus, e por meio da Sua autoridade que sejam repreendidos, cada um destes espíritos; Jesus é quem vos ordena que se dirijam imediatamente aos infernos, sem quaisquer tipo de manifestação e prejuízo a mim ou a outra pessoa, de modo que Jesus mesmo disponha de vós de acordo com a Sua Santa vontade.
+
+Agradeço-te Pai, por teu amor, agradeço ó Espírito Santo, por me fazeres destemido contra Satanás e contra os espíritos maus, e por me libertares de todos estes sofrimentos que me perseguiam.
+
+Senhor Jesus, depois de receber a libertação por meio de Vós , preencha estes vazios com a Tua presença e a presença do Vosso Santo Espirito! Que eu possa a partir de agora colher e receber as graças, os dons e os carismas do Teu Espirito, para que auxiliado pelo mesmo, eu consiga viver com retidão e fidelidade! Que o Senhor me conceda as virtudes da temperança, da Fé, da caridade, da compaixao, da verdade, da sabedoria, da esperança do amor e da misericórdia!
+
+Ajuda-me a caminhar na Tua luz e verdade, iluminado pelo Espírito Santo, de modo que, juntos possamos louvar, honrar e glorificar ao Pai agora e para sempre; porque Tu, Jesus, és o Caminho a Verdade e a Vida e vieste para que cada pessoa tenha vida e para que a tenha em abundância.
+
+Te agradeço Senhor pelas graças recebidas, por teres me curado, restaurado a minha vida e me libertado das garras do Maligno.
+
+Graças a ti Senhor, eu sou uma nova criatura. Louvado seja o Teu nome Jesus!
+
+Amém!
+
+        fonte blog cancaonova.com
+    </string>
+    <string name="libertacaodaresistencia">
+        Satanás, levantamos nosso escudo da fé contra ti e te resistimos com a espada do Espírito Santo, a Palavra de Deus que proclama o teu julgamento como falso deus, acusador e afligidor dos filhos do Altíssimo. Anunciamos que estão destruídas as tuas obras em nossas vidas e na vida de nossos familiares,
+        companheiros de equipe, e servos dos ministérios.
+Pelo poder do Sangue de Jesus Cristo † rejeitamos e quebramos todas as malignas pragas, maldições, encantamentos, rituais, poderes psíquicos e obras de feitiçaria para derrotar ou destruir nossas vidas e ministérios.
+Resistimos a todos os poderes demoníacos enviados contra nós por quem quer que seja. Ordenamos a todos os poderes do mal que voltem imediatamente para o lugar de onde vieram. No Nome de Jesus, abençoamos os que nos amaldiçoaram.[www.arcanjomiguel.net]
+Enviamos o Espírito Santo a eles para que os convença de seus pecados e os leve para a Sua Luz, e os envolva na Misericórdia do Deus vivo.(SMA)
+Assim seja, em Nome do Senhor Nosso Deus. Amém!
+    </string>
+    <string name="oracaocombateespiritual">
+        Pai Celestial, coloco-me agora em adoração e louvor diante de Ti. Revisto-me de Teu Sangue e me entrego inteiro a Ti, sem reservas. Convoco o Espirito Santo para me capacitar neste momento.
+Agradeço-te Pai, por ter enviado Jesus, para morrer em meu lugar e, através dEle, tu me perdoaste completamente meus pecados, minha dívida contigo, dando-me vida eterna. Pai, mostra-me sempre como Tu és grande e que nada me flatará através de Ti.
+Agradeço-te hoje hoje e sempre por tudo que sou, por tudo que tenho, por minha família, por meus amigos; pelos bons e maus momentos, por tudo que deu certo em minha vida e por todos os meus erros e fracassos, pois foi através deles e com tua ajuda que os transformei em acertos e vitórias.
+Pai, agradeço-te por me querer para Ti e quanto te custei caro, me trocastes por teu amado Filho. Agadeço tuas bençãos em minha vida e por me tornar herdeiro de Jesus. Reconheço que esta é a Tua vontade e que eu nem merecia, e hoje posso viver cheio de teu Espírito, de amor , alegria e autocontrole em minha vida. E é por isso, que hoje rejeito e resito a todas as tentaivas de Satanás de me roubarem de minha vida a vontade de Deus.
+Revisto-me como Sangue de Jesus, com a benção do Pai e o poder do Espírito santo para proteger a minha família de tudo aquilo que não vem de Deus e esta procuando atingir-nos com aflição, doenças, misérias, adultérios, traição, abandono do lar e brigas constantes, e para quebrar todas asd cadeias do mal, todos os tropeços e armadilhas de satanás. É somente em teu nome que nada interfeiraá na obra do Senhor que se realiza em minha vida e na vida dos meus familares.
+Portanto, eu em nome do Senhor Jesus e pelo seu poder, d errubo hoje as fortalezas de Satanás contra meus pensamentos, minha mente, e a submeto a ti Senhor e através do seu podere do seu amor terei sempre uma mente sã e cheia de sabedoria de Deus.
+Derrubo também as muralhas do inimigo constituidas no meu corpoe no meu coração. Entrego-os a Ti e peço-te toma conta deles, pois eles são seus.
+Mostra-me como satanás está impedindo, tentando, mentido, distorcendo tudo em minha vida, e por isso, minha mente, meu corpoe meu coração sofrem. Mas agora por Ti, atrave´s de ti pai, retiro da mão do inimigo tudo que ele tinha dominado pela minha fraqueza, minha ignorãncia e minhas revoltas. Retiro da mão do inimigo e entrego a Ti… receba pai, meu corpo, minha mente, meu coração e meu Espírito. Eu me submeto a Ti e suplico de todas as maneiras a Tua vitória sobre todas as forças malignas em minha vida, vinda geneticamente, pelo sangue do meus antepassados e que chegaram a mim e eram iniquidades dels que me contaminaram a minha vida. Renuncio a tudo que vem do malignoe que por desconhecimento entraram em minha vida. E tudo isso faço em nome e pela autoridade de do Senhor Jesus Cristo.
+E agora agradeço-te Pai, pela armadura que providenciaste: Eu me cinjo com o cinturão da verdade, revisto-me da couraça da justiça, calço-me da sandálias da paz e coloco o cvapacete da slavação, levanto o escudo da fé contra os ardentes dardos do inimigo e tomo em minha mão a espada do Espírito Santo, que é a palvra de Deus. Contra toda as forças do mal me revisto desta amardura, tornando-me assim, um vrdadeiro soldado teu, Pai!!!! Amem, Aleluia!!! (reze o creio em Deus Pai)…
+
+        Pe Vagner Baia da Rocha,
+
+        fonte blog.cancaonova.com
+
+    </string>
+    <string name="louvoraschagaseaosanguedocordeiro">
+        ouvo as Chagas e o Sangue do Cordeiro que curam as fraquezas do meu corpo.
+Louvo as Chagas e o Sangue do Cordeiro que curam as fraquezas da minha alma.
+Louvo as Chagas e o Sangue do Cordeiro que curam as fraquezas do meu espírito.
+Adoração ao Cordeiro de Deus que derramou Seu Sangue por nós em agonia.
+No Seu Sangue há poder para perdoar.
+No Seu Sangue há poder para purificar.
+No Seu Sangue há poder para salvar.
+No Seu Sangue há poder para libertar.
+No Seu Sangue há poder para vencer.
+No Seu Sangue há poder para renovar.
+No Seu Sangue há poder para proteger.
+Para aquele que crê no poder do Sangue de Jesus, nada é impossível.
+Louvo o Sangue do Cordeiro que cobre todos os meus pecados, para que não mais sejam vistos.
+Louvo o Sangue do Cordeiro, que me purifica de todos os meus pecados e me torna alvo como a neve.
+Louvo o Sangue do Cordeiro, que tem o poder de me libertar de todas as minhas correntes e escravidão do pecado.
+Louvo o Sangue do Cordeiro, que é mais forte que o meu próprio sangue, infestado de pecado, e que me transforma à imagem de Deus.
+Louvo o Sangue do Cordeiro, em que há vitória sobre todos os poderes que querem me oprimir, sobre todo poder do inimigo.
+Louvo o Sangue do Cordeiro que me protege das astutas investidas do inimigo.
+Louvo o Sangue do Cordeiro que me prepara as vestes nupciais.
+Louvo o Sangue do Cordeiro que faz novas todas as coisas.
+Aleluia! Amém.
+
+        fonte blog.cancaonova.com
+    </string>
+    <string name="oracaodeconficaoerenuncia">
+        Senhor Jesus Cristo, creio que tu morreste na cruz por meus pecados e ressuscitastes da morte.
+        Tu redimiste por Teu Sangue e pertenço a Ti. Confesso-Te todos os meus pecados, os conhecidos e os desconhecidos...
+        Lamento-me por eles. Arrependo deles. Renuncio a todos eles.
+Eu perdôo a todas as pessoas que me ofenderam... como quero que Tu me perdoes.
+Perdoa-me agora e lava-me com Teu sangue, Jesus, que me purifica de todo pecado.E chego a Ti, neste momento, como meu Libertador.
+        Tu sabes das minhas necessidades especiais... Aquilo que me perverte...,
+        aquele espírito maldito... que me atormenta.
+Clamo a promessa da Tua palavra: "Todo aquele que invocar o nome do Senhor, será salvo".
+        Clamo a Ti, agora, em Teu Nome, liberta-me, ó Senhor! Satanás, eu renuncio a você e a toda a sua obra,
+        inclusive a toda e qualquer ocultismo, feitiçaria, macumba, espiritismo, cartomancia,
+        a tudo que direta ou disfarçadamente tenha ligação com você.
+
+Renuncio agora, também, a qualquer ligação que eu ou membros de minha família, amigos e conhecidos,
+        tenhamos tido com as obras ligadas a você. Renuncio a você, satanás, em Nome de Jesus Cristo †,
+        e ordeno que você me deixe agora, em Nome de Jesus Cristo †, o Filho do Deus Vivo †, meu Salvador.
+
+        Amém!.
+
+        livro [oracoes selecionadas]
+    </string>
+    <string name="oracaodequebrademaldicao">
+        Estamos reunidos em nome do Pai, do Filho e do Espírito Santo. Amém!
+Invocamos o poder soberano do Sangue de Jesus, Filho de Deus, prefigurado na antiga aliança, derramado na circuncisão, na agonia e na flagelação, na coroação de espinho, no caminho doloroso do calvário e na perfuração do Sacratíssimo Coração de Jesus.
+Nós invocamos o preciosíssimo Sangue do Nosso Senhor Jesus Cristo, aspergido em cada uma de Suas Chagas, sobre todas as causas da sua vida e, determinamos o cancelamento de toda a ação do mal, miséria e negatividade que possam estar sobre você e sua família.
+Pelo poder do nome de Jesus e das chagas do Seu Corpo, pelo Sangue aspergido em cada uma dessas Chagas, seja quebrada e destruída toda contaminação e brechas que estavam na sua mente.
+Que seja desfeito, agora, tudo aquilo que era razão pelo qual o inimigo o atormentava e escravizava em sua mente. Que seja destruída toda opressão mental e doença que estava na sua massa encefálica.
+/n
+        <b>Curados e libertos</b>/n
+
+Nós ordenamos o cancelamento e destruição de todas as brechas que estão no seus olhos, no seus ouvidos e na sua boca. Que todo mal que tenha entrado no seus ouvidos, no seus olhos, na sua boca, e que se tornou uma fonte de miséria, de maldição, negatividade e doença, desfaça-se em nome de Jesus Cristo!
+Que você seja livre de todo mal e de toda doença. Nós invocamos o poder soberano do Sangue de Jesus, aspergido em cada uma de Suas Chagas como fonte de cura e libertação e, ordenamos que seja destruída toda contaminação, brecha, maldição, miséria e doença que estavam no seu coração.
+Que o Senhor chegue, agora, lavando com o Seu Sangue e sobre sua vida, uma efusão do Sangue d’Ele, eliminando toda doença, bactéria, célula cancerígena e degenerativa. Eliminando, também, as doenças que estão em tratamento: as diagnosticadas, as desconhecidas; e que você receba a cura e a libertação.
+Nós ordenamos, em nome de Jesus, pelo poder das santas Chagas d’Ele e pelos merecimentos do Sangue de Jesus, que seja absorvida toda contaminação, brecha e negatividade que entrou na sua vida pela suas mãos e pés.
+Por aquilo que você tocou, pelos lugares onde seus pés o levaram, e que todo esse mal caia por terra e que receba a bênção, a libertação e a cura de todas as negatividades que entraram pela brechas e histórias de vida.
+Nós determinamos o cancelamento e a cura total do seu corpo e da sua alma. Nós ordenamos a todos os espíritos maus que vão para os pés da Cruz do Senhor, para que Ele lave com o Seu Sangue e dê a sentença que eles merecem, precipitando-os no abismo do inferno.
+Em nome de Jesus, pelo poder das Chagas do Senhor e pelos merecimentos do Seu Sangue, proibimos a todos esses espíritos imundos de voltarem a atormentá-lo ou a qualquer outra pessoa e que receba, agora, o batismo no Espírito Santo, com carismas sobrenaturais.
+Que Deus o abençoe, concedendo-lhe cura e libertação! Em nome do Pai, do Filho e do Espírito Santo.
+
+        Amém! Ironi Spuldaro
+        fonte : formacao.cancaonova.com
+    </string>
+
+    //GRUPO 6
+    <string name="oracaosaogabrielarcanjo">
+        Ó Deus, que entre a multidão dos Anjos escolhestes o Arcanjo Gabriel para anunciar o mistério de vossa Encarnação;
+        concedei-nos benignamente que, celebrando sua festa na terra, possamos sentir os efeitos de sua proteção no céu.
+        Vós que viveis e reinais por todos os séculos dos séculos.
+
+        Amém
+
+        fonte blog.cancaonova.com
+    </string>
+    <string name="oracaosaorafaelarcanjo">
+        Ó Deus, que destes o Arcanjo Rafael como guia ao vosso servo Tobias em seu caminho,
+        concedei-nos também que ele sempre nos guarde e nos preste o auxílio de sua proteção.
+        Por Nosso Senhor Jesus Cristo. Amém.
+                fonte blog.cancaonova.com
+
+        </string>
+    <string name="oracaosaomiguelarcanjo">
+        São Miguel Arcanjo, protegei-nos com o vosso escudo contra as maldades e ciladas do demônio.
+        Subjugue-o Deus, instantemente o pedimos; e vós, Príncipe da milícia celeste,
+        pelo divino poder precipitai no inferno a Satanás e aos outros espíritos malignos que andam pelo mundo para a perder as almas.
+        Amém.
+                fonte blog.cancaonova.com
+
+    </string>
+    <string name="saopadrepio">
+        Fica Senhor comigo, pois preciso da tua presença para não te esquecer.
+Sabes quão facilmente posso te abandonar.
+Fica Senhor comigo, porque sou fraco e preciso da tua força para não cair.
+Fica Senhor comigo, porque és minha vida, e sem ti perco o fervor.
+Fica Senhor comigo, porque és minha luz, e sem ti reina a escuridão.
+Fica Senhor comigo, para me mostrar tua vontade.
+Fica Senhor comigo, para que ouça tua voz e te siga.
+Fica Senhor comigo, pois desejo amar-te e permanecer sempre em tua companhia.
+Fica Senhor comigo, se queres que te seja fiel.
+Fica Senhor comigo, porque, por mais pobre que seja minha alma, quero que se transforme num lugar de consolação para ti, um ninho de amor.
+Fica comigo, Jesus, pois se faz tarde e o dia chega ao fim; a vida passa, e a morte, o julgamento e a eternidade se aproximam. Preciso de ti para renovar minhas energias e não parar no caminho. Está ficando tarde, a morte avança e eu tenho medo da escuridão, das tentações, da falta de fé, da cruz, das tristezas. Oh, quanto preciso de ti, meu Jesus, nesta noite de exílio.
+Fica comigo nesta noite, Jesus, pois ao longo da vida, com todos os seus perigos, eu preciso de ti. Faze, Senhor, que te reconheça como te reconheceram teus discípulos ao partir do pão, a fim de que a Comunhão Eucarística seja a luz a dissipar a escuridão, a força a me sustentar, a única alegria do meu coração.
+Fica comigo, Senhor, porque na hora da morte quero estar unido a ti, se não pela Comunhão, ao menos pela graça e pelo amor.
+Fica comigo, Jesus. Não peço consolações divinas, porque não as mereço, mas apenas o presente da tua presença, ah, isso sim te suplico!
+Fica Senhor comigo, pois é só a ti que procuro, teu amor, tua graça, tua vontade, teu coração, teu Espírito, porque te amo, e a única recompensa que te peço é poder amar-te sempre mais. Com este amor resoluto desejo amar-te de todo o coração enquanto estiver na terra, para continuar a te amar perfeitamente por toda a eternidade. Amém.
+São Padre Pio, rogai por nós!
+
+        fonte padrepauloricardo.org
+    </string>
+    <string name="oracaoasaojose">
+        Glorioso São José, modelo de todos os que se dedicam ao trabalho, obtendo-nos do Criador do universo a graça de trabalhar com consciência, cumprindo com fidelidade nosso dever de trabalhar com reconhecimento e alegria, julgando uma honra empregar e desenvolve, pelo trabalho, as qualidades recebidas de Deus como um chamado divino para colaborar na obra da criação e aperfeiçoamento deste mundo. A graça de trabalhar com ordem, paz, moderação, paciência e eficiência, sem nunca recuar perante o cansaço e as dificuldades; de trabalhar em espírito de penitência para expiar nossos pecados; de trabalhar,
+        sobretudo, com desapego e dedicação pelos que dependem de nosso esforço.
+Pedimos vossa intercessão pelo mundo do trabalho, a fim de que aí reine o espírito cristão de justiça e paz,
+        conforme os ensinamentos da Igreja; que os trabalhadores se unam em organizações que
+        defendam os seus direitos e respeitem os alheios; que patrões e empregados se tratem mutuamente como irmãos
+        e filhos do mesmo Pai, que se convertam os que ignoram a dignidade da pessoa humana e exploram o operário e o pobre.
+
+Convosco, São José, agradecemos a Deus a saúde, a força, a disposição e as habilidades que nos permitem providenciar o
+        sustento de nossos familiares e ser membros úteis da sociedade. Tudo para Jesus, tudo por Maria, tudo à vossa imitação,
+        ó patriarca São José! Tal será nossa inspiração na vida e na morte.
+
+        fonte : formacao.cancaonova.com
+
+Amém.
+    </string>
+    <string name="oracaosantaterezadavila">
+Nada te perturbe, Nada te espante,
+Tudo passa, Deus não muda,
+A paciência tudo alcança;
+Quem a Deus tem, Nada lhe falta:
+Só Deus basta.
+
+Eleva o pensamento, Ao céu sobe,
+Por nada te angusties, Nada te perturbe.
+A Jesus Cristo segue, Com grande entrega,
+E, venha o que vier, Nada te espante.
+Vês a glória do mundo? É glória vã;
+Nada tem de estável, Tudo passa.
+
+Deseja as coisas celestes, Que sempre duram;
+Fiel e rico em promessas, Deus não muda.
+Ama-o como merece, Bondade Imensa;
+Quem a Deus tem, Mesmo que passe por momentos difíceis;
+Sendo Deus o seu tesouro, Nada lhe falta.
+SÓ DEUS BASTA!
+
+        fonte formacao.cancaonova.com
+    </string>
+    <string name="oracaoasaobento">
+       <b> Oração da Medalha de São Bento</b>/n
+A Cruz Sagrada seja a minha luz, não seja o dragão o meu guia.
+        Retira-te, satanás! Nunca me aconselhes coisas vãs.
+        É mau o que tu me ofereces, bebe tu mesmo os teus venenos!
+/n
+ imagem de São Bento revela-nos muito sobre a vida e a obra deste grande santo, que é considerado o 'Pai dos Monges' e instituído como o padroeiro da Europa. Ele é o fundador da Ordem dos Beneditinos e caminhou por toda a Europa evangelizando e fundando mosteiros. Vamos conhecer os símbolos de sua imagem.
+O hábito preto de São Bento
+O hábito ou 'batina' preta de São Bento simboliza a Ordem dos Beneditinos fundada por ele. Após ter vivido três anos como eremita, dedicando-se totalmente à oração, Bento passou pelo convento de Vicovaro e depois fundou a Ordem dos Beneditinos conforme o Espírito Santo lhe inspirara. O hábito preto, como de São Bento, permanece sendo usado até hoje nos Mosteiros de seus confrades.
+A taça de São Bento
+A taça que aparece nas imagens de São Bento ilustra um acontecimento especial na vida do santo. Depois de ter vivo três anos como eremita, São Bento foi chamado para ser o superior do convento de Vicovaro. Lá, porém, os religiosos viviam uma vida de poucos sacrifícios e pouca oração. São Bento tentou mudar o comportamento dos monges, mas estes, ao invés de acolherem seu ensinamento, tentaram matá-lo colocando veneno numa taça que ele usaria para beber. Como de costume, São Bento rezou e abençoou a bebida antes de consumi-la. Neste momento, a taça quebrou, revelando, assim, a intenção daqueles homens. A partir desse momento, São Bento saiu dali e fundou a Ordem dos Beneditinos.
+O livro na mão de São Bento
+O livro na mão de São Bento simboliza a regra de vida que ele, inspirado por Deus, criou para que os monges de sua Ordem seguissem. Trata-se de uma regra clara, simples e completa, que é seguida até hoje pelos beneditinos. O lema principal de sua regra de vida é: 'Ora et Labora', ou seja, 'ore e trabalhe'. Oração e trabalho é a grande mensagem de São Bento para o mundo. A oração alimenta o espírito e dá sentido a todas as coisas. O trabalho ocupa a mente, enobrece o homem, é causa de crescimento e desenvolvimento. Assim, os tempos de oração e trabalho são muito bem definidos na vida dos monges seguidores de São Bento. São dois braços inseparáveis, como as hastes da cruz: uma horizontal, outra vertical. Uma, ligando-nos ao céu; a outra, ligando-nos à terra e ao próximo.
+O cajado de São Bento
+O cajado na mão de São Bento é uma referência ao santo como pai e pastor. Ao fundar a Ordem dos Beneditinos, São Bento tornou-se o pai de milhares de monges que seguiram seus passos ao longo da história. O cajado simboliza também a autoridade de São Bento como fundador e sua caminhada na fé, iluminando a vida de milhões de pessoas.
+O gesto de Bênção
+São Bento é sempre representado abençoando. Este era um gesto comum em sua vida: abençoar. Ele seguia à risca o conselho de São Pedro que diz: "Não pagueis mal com mal, nem injúria com injúria. Ao contrário, abençoai, pois para isto fostes chamados, para que sejais herdeiros da bênção". (1Pedro 3,9) Foi seguindo este conselho, que São bento ficou livro do envenenamento, como vimos acima.
+A barba de São Bento
+A barba de São Bento, longa e branca, simboliza sua sabedoria. Sabedoria que guiou sua vida, inspirou-o a fundar uma Ordem que ajudaria a milhões de pessoas pelo mundo, e a escrever uma regra que nortearia e daria sentido à vida de outros milhões de pessoas ao longo dos séculos.
+
+        fonte
+
+        cruzterrasanta.com.br
+
+    </string>
+    <string name="oracaosantaterezinhadomeninojesis">
+        ‘Oh! Santa Teresinha do Menino Jesus, modelo de humildade,
+        de confiança e de amor! Do alto dos céus despeje sobre nós
+        estas rosas que levas em teus braços: a rosa da humildade para
+        que vençamos nosso orgulho e aceitemos o jugo do Evangelho; a rosa
+        da confiança, para que nos abandonemos à vontade de Deus e descansemos
+        em sua Misericórdia; a rosa do amor, para que abrindo nossas almas sem medida
+        à graça realizemos o único fim para o qual Deus nos criou a sua Imagem : Amar- Lhe e
+        \fazer- Lhe amar, Tu que passas teu Céu fazendo o bem na terra, ajuda-me nesta necessidade e
+        concede-me do Senhor o que te peço, se for para glória de Deus e para o bem de minha alma.
+
+        Amém.’
+
+        fonte: formacao.cancaonova.com
+
+    </string>
+    <string name="oracaoasantoagostinho">
+        Gloriosíssimo Pai Santo Agostinho, que por divina providência fostes chamado das trevas da gentilidade
+        e dos caminhos do erro e da culpa a admirável luz do Evangelho e aos retíssimos caminhos da graça e da
+        justificação para ser ante os homens vaso de predileção divina e brilhar em dias calamitosos para a Igreja,
+        como estrela da manhã entre as trevas da noite: alcançai-nos do Deus de toda consolação e misericórdia o sermos
+        chamados e predestinados, como Vós o fostes, a vida da graça e a graça da eterna vida,
+        onde juntamente convosco cantemos as misericórdias do Senhor e gozemos a sorte dos eleitos pelos séculos dos séculos.
+        Amém.”
+        /n
+        <b>Conversão</b>
+Depois das buscas incessantes pela verdade e de vários casos amorosos, Agostinho finalmente rendeu-se à coerência da mensagem de Jesus Cristo. Encontrou em Jesus o que não encontrara em nenhuma outra filosofia, em nenhum outro mestre. Assim, ele e seu filho Adeodato, então com 15 anos, foram batizados em Milão por Santo Ambrósio, durante uma vigília Pascal. A partir de então, passou a escrever contra o maniqueísmo, que ele conhecia tão bem. Mas depois disso, escreveu obras tão importantes que o tornaram Doutor da Igreja.
+
+<b>Sofrimentos</b>
+Agostinho dedicava grande atenção a Adeodato formando-o na fé e nas ciências humanas. De repente, porém, seu filho veio a falecer. Foi um grande choque. Por causa disso, decidiu voltar para Tagaste. No caminho de volta, aconteceu que sua mãe também faleceu. Agostinho menciona em suas “Confissões” a maravilha e o alimento espiritual que eram os diálogos que ele tinha com sua mãe, Santa Mônica, sobre a pessoa de Jesus Cristo e a beleza da fé cristã. Esses diálogos foram decisivos para sua formação. E agora, com a morte da mãe, muita falta ele sentiu dessas conversas restauradoras.
+
+<b>De volta à terra Natal</b>
+Depois de sepultar sua mãe continuou decidido sua volta para a terra natal. Ele chegou a Tagaste no ano 288. Lá, optou pela vida religiosa. Junto com alguns amigos de fé, deu início a uma comunidade monástica cujas regras foram escritas por ele mesmo. Deste embrião nasceram várias ordens e congregações religiosas masculinas e femininas, todas seguindo as regras e a inspiração “Agostiniana”.
+
+<b>Não se coloca uma lâmpada debaixo da mesa</b>
+O bispo de Hipona, percebendo a forte inspiração
+        que Deus colocara na alma de Agostinho,
+        convidou-o para ir junto nas missões e pregações.
+        O bispo, já idoso e enfraquecido, vendo confirmada a
+        sabedoria de Agostinho, ordenou-o como sacerdote,
+        o que foi aceito com grande alegria pelos fiéis.
+        E, depois, em 397, logo após a morte do bispo, o povo,
+        em uma só voz, aclamou Santo Agostinho como bispo de Hipona.
+        Ele ocupou o cargo durante 34 anos, derramando toda sua sabedoria nas pregações,
+        nos livros, na caridade para com os pobres, na espiritualidade profunda.
+        Combateu heresias, tornou-se uma dos mais importantes teólogos e filósofos da Igreja,
+        influenciando pensadores até o presente. Foi aclamado Doutor da Igreja e um dos
+        “Padres da Igreja” por causa de seu ministério iluminador. Entre os livros de
+        maior destaque em suas obras, estão “Confissões” e “Cidade de Deus”,
+        livros autobiográficos que se tornaram best-sellers ao longo de vários séculos e até hoje.
+
+        fonte cruzterrasanta.com.br
+
+<b>Morte</b>
+Santo Agostinho faleceu feliz pela força da Igreja de Hipona,
+        mas, ao mesmo tempo, triste, por causa da invasão bárbara em Hipona,
+        motivo de grandes perseguições contra os fiéis.
+        Sua morte ocorreu em 28 de agosto do ano 430. Mais tarde, em 725,
+        seus restos mortais foram exumados e trasladados para a cidade de Pávia,
+        na Itália, onde são venerados na igreja de São Pedro do Céu de Ouro.
+        A igreja fica perto do local onde ocorreu sua conversão.
+
+
+    </string>
+
+
+    //grupo 7
+    <string name="nossasenhoradesatadoradosnos">
+        Virgem Maria, Mãe do belo amor, Mãe que jamais deixa de vir em socorro a um filho aflito, Mãe cujas mãos não param nunca de servir seus amados filhos, pois são movidas pelo amor divino e a imensa misericórdia que existem em teu coração, volta o teu olhar compassivo sobre mim e vê o emaranhado de nós que há em minha vida.
+
+Tu bem conheces o meu desespero, a minha dor e o quanto estou amarrado por causa destes nós.
+
+Maria, Mãe que Deus encarregou de desatar os nós da vida dos seus filhos, confio hoje a fita da minha vida em tuas mãos.
+
+Ninguém, nem mesmo o maligno poderá tirá-la do teu precioso amparo. Em tuas mãos não há nó que não poderá ser desfeito.
+
+Mãe poderosa, por tua graça e teu poder intercessor junto a Teu Filho e Meu Libertador, Jesus, recebe hoje em tuas mãos este nó (seu pedido aqui) Peço-te que o desates para a glória de Deus, e por todo o sempre.
+
+Vós sois a minha esperança. Ó Senhora minha, sois a minha única consolação dada por Deus, a fortaleza das minhas débeis forças, a riqueza das minhas misérias, a liberdade, com Cristo, das minhas cadeias.
+
+Ouve minha súplica. Guarda-me, guia-me, protege-me, ó seguro refúgio!
+
+Maria, Desatadora dos Nós, roga por mim.
+
+        fonte Livro [oracoes selecionadas]
+    </string>
+    <string name="oracaoreparadoraaosantissimosacramento">
+        Divino Salvador Jesus! Dignai-vos baixar um olhar de misericórdia sobre vossos filhos, que reunidos em um mesmo pensamento de Fé, Reparação e Amor, vêm chorar a vossos pés suas infidelidades e a de seus irmãos, os pobres pecadores!
+
+Oracao reparadora ao santissimo sacramento
+
+Possamos nós, pelas promessas unânimes e solenes que vamos fazer, tocar o vosso divino Coração, e dele alcançar misericórdia para o mundo infeliz e criminoso e para todos aqueles que não têm a felicidade de vos amar!
+
+Daqui por diante, sim, todos nós vo-lo prometemos:
+
+Do esquecimento e da ingratidão dos homens,
+Nós vos consolaremos, Senhor!
+Do abandono em que sois deixado no santo Tabernáculo,
+Nós vos consolaremos, Senhor!
+Dos crimes dos pecadores,
+Nós vos consolaremos, Senhor!
+Do ódio dos ímpios,
+Nós vos consolaremos, Senhor!
+Das blasfêmias que se vomitam contra vós,
+Nós vos consolaremos, Senhor!
+Das injúrias feitas à vossa divindade,
+Nós vos consolaremos, Senhor!
+Dos sacrilégios com que se profana o vosso Sacramento de amor,
+Nós vos consolaremos, Senhor!
+Das imodéstias e irreverências cometidas em vossa presença adorável,
+Nós vos consolaremos, Senhor!
+Da tibieza do maior número de vossos filhos,
+Nós vos consolaremos, Senhor!
+Do desprezo que se faz de vossos convites cheios de amor,
+Nós vos consolaremos, Senhor!
+Das infidelidades daqueles que se dizem vossos amigos,
+Nós vos consolaremos, Senhor!
+Do abuso de vossas graças,
+Nós vos consolaremos, Senhor!
+De nossas próprias infidelidades,
+Nós vos consolaremos, Senhor!
+Da incompreensível dureza de nossos corações,
+Nós vos consolaremos, Senhor!
+De nossa longa demora em vos amar,
+Nós vos consolaremos, Senhor!
+De nossa frouxidão em vosso santo serviço,
+Nós vos consolaremos, Senhor!
+Da amarga tristeza em que sois abismado pela perda das almas,
+Nós vos consolaremos, Senhor!
+Do vosso longo esperar às portas de nossos corações,
+Nós vos consolaremos, Senhor!
+Das amargas repulsas de que sois saciado,
+Nós vos consolaremos, Senhor!
+De vossos suspiros de amor,
+Nós vos consolaremos, Senhor!
+De vossas lágrimas de amor,
+Nós vos consolaremos, Senhor!
+De vosso cativeiro de amor,
+Nós vos consolaremos, Senhor!
+De vosso martírio de amor,
+Nós vos consolaremos, Senhor!
+
+Oração:
+
+Divino Salvador Jesus, que de vosso Coração deixastes escapar esta queixa dolorosa: “Eu procurei consoladores e não os achei”, dignai-vos aceitar o pequeno tributo de nossas consolações e assistir-nos tão poderosamente com o socorro de vossa graça que, para o futuro, fugindo cada vez mais de tudo o que vos poderia desagradar, nos mostremos em tudo, por toda a parte e sempre, vossos filhos, os mais fiéis e devotados.
+
+Nós vo-lo pedimos por vós mesmo, que sendo Deus, com o Pai e o Espírito Santo, viveis e reinais nos séculos dos séculos. Amém.
+
+Fonte: Livro de orações da Igreja
+
+        formacao.cancaonova.com
+    </string>
+    <string name="bencaodelugarestumultuados">
+
+        bencao de uma casa
+        Padre: O nosso socorro está no Nome † do Senhor.
+
+Todos: Que fez o céu e a terra.
+
+Padre: O Senhor esteja convosco.
+
+Todos: Ele está no meio de nós.
+
+Oremos:
+
+Deus Todo Poderoso, imploramos com fé por esta casa, por seus ocupantes e bens, para que o Senhor os abençoe
+
+e santifique, enriquecendo-os por sua bondade de todas as maneiras possíveis.
+
+Derrame sobre eles, Senhor, o orvalho do céu em boa medida, bem como uma abundância de bens terrenos necessários.
+
+Escute com misericórdia suas orações e permita que seus desejos sejam realizados.
+
+Em nossa humilde visita, por favor, de boa vontade abençoe esta casa, como o Senhor de boa vontade abençoou a
+
+casa de Abraão, Isaac e Jacó.
+
+Dentro destes muros permita que seus anjos de luz presidam e guardem os que aqui habitam.
+
+Por Cristo, nosso Senhor.
+
+Todos: Amém.
+
+(a porta de entrada é aspergida com água benta)
+
+
+ORAÇÃO DE SÃO BENTO.
+
+A Cruz Sagrada Seja A Minha Luz.
+Não Seja O Dragão O meu Guia.
+Retira-te Satanás
+Nunca Me Aconselhes Coisas Vãs
+É Mal O Que Tu Ofereces
+Bebe Tu Mesmo O Teu Veneno.
+
+        livro [oracoes selecionadas]
+
+
+    </string>
+    <string name="oracaoparapedirfe">
+
+Senhor, eu creio; eu quero crer em Ti.
+        Eu Te louvo pelo dom da fé e reconheço que estou ainda longe de ter a mesma fé de Abraão e Sara,
+        de Tobit, de tantos profetas e reis; e o quanto sonho em experimentar também a mesma fé da Virgem Maria.
+
+ Renova em mim o dom da fé recebido no Batismo, confirmado na Crisma e reanimado em cada Eucaristia.
+        Que eu viva alicerçado na Tua Palavra e que por ela me sinta exortado à fidelidade. Diante de Tua presença,
+        professo que creio, mas aumenta a minha fé.
+
+Senhor, faz que a minha fé seja total, sem reservas; que ela
+        penetre no meu pensamento e na minha maneira de julgar
+        as coisas divinas e as coisas humanas. Senhor, faz que
+        minha fé seja livre, quero aceitar livremente Tua vontade com
+        todas as renúncias e deveres que ela comporta.
+
+Senhor, Tu disseste que felizes são os que crêem sem ter visto.
+        Dá-me a graça de crer, mesmo nos momentos em que não vejo caminho ou solução,
+        reconhecendo que Tu és o caminho e a solução, sempre! Senhor, faz com que minha fé seja forte.[
+
+Que eu possa caminhar sobre águas revoltas e em Teu Nome eu possa remover montanhas;
+        dá-me a fé que não vacila, que é garantia de vida eterna e que proclama Teu poder, agindo, curando e libertando.
+
+Que eu não tema a oposição daqueles que contestam a fé, a atacam, a recusam e a negam;
+        mas que minha fé se fortifique na experiência íntima da verdade, que ela
+        resista ao desgaste da crítica, que ela ultrapasse as dificuldades cotidianas.
+
+Dá-me a cada dia a graça de pronunciar Teu Nome com a fé que não só alimenta minha esperança,
+        mas que já vê acontecer; que é poder. Que eu permaneça com os olhos fixos no Teu coração
+        transpassado, para que, Te vendo, eu receba a salvação e anuncie a todos.
+
+Senhor, faz com que minha fé seja alegre, que ela dê paz e alegria à minha alma,
+        que ela me torne disponível para rezar a Deus e para conversar com os irmãos.
+
+Senhor, faz com que minha fé seja atuante e que seja também uma contínua busca de Ti,
+        um contínuo testemunho, um contínuo alimento de esperança. Senhor, faz com que
+        minha fé seja humilde, que não se fundamente em meu pensamento,
+        e nem em meu sentimento; mas que me submeta sempre ao Espírito Santo,
+        à tradição e à autoridade do magistério da Igreja.[
+
+Obrigado Senhor, creio que estás me renovando e
+        já me sinto fortalecido no corpo, no espírito e na alma,
+        porque, como a Virgem Maria, professo "que tudo é possível para aquele que crê."
+
+        Amém!
+
+(Adaptação livre da Oração do Papa Paulo VI)
+
+        livro [oracoes selecionadas]
+    </string>
+    <string name="oracaoanossasenhoradoequilibrio">
+        Virgem Mãe de Deus e dos homens, MARIA.
+Pedimos-vos o dom do equilíbrio cristão, hoje tão necessário à Igreja e ao mundo.
+Livrai-nos de todo o mal; salvai-nos do egoísmo, do desânimo, do orgulho, da presunção e da dureza de coração. Dai-nos tenacidade no esforço, calma no insucesso, humildade no êxito feliz.
+Abri nossos corações à santidade. Fazei que pela pureza de coração, pela simplicidade e amor à verdade, possamos conhecer nossas limitações.
+Alcançai-nos a graça de compreender e viver a palavra de Deus.
+Concedei-nos que, pela Oração, Amor e Fidelidade à Igreja na pessoa do Sumo Pontífice…, vivamos em comunhão fraterna com todos os membros do Povo de Deus, Hierarquia e fiéis.
+Despertai-nos profundo sentimento de solidariedade entre irmãos, para que possamos viver, com Equilíbrio, a nossa Fé, na Esperança da eterna salvação. Nossa Senhora do Equilíbrio, a Vós nos consagramos, confiantes na ternura da vossa maternal Proteção.
+Divino Espírito Santo, que deste a Maria todo equilíbrio emocional e físico, dai-nos a graça de abandonar em vós nossos sentimentos e emoções, desejos e aspirações, a amar acima de tudo a Deus e não querer nada que me prejudique nem me afaste da Sua Vontade.
+Dai-nos a graça da paciência nas demoras, do discernimento para procurar as pessoas certas que nos ajudem, da cura de nossas feridas emocionais provocadas pela falta do amor verdadeiro e de escolhas erradas.
+Onde você precisa de equilíbrio hoje?
+
+Nossa Senhora do Equilíbrio rogai por nós!
+Queremos abandonar aos pés d’Aquele que tudo pode transformar e equilibrar: “Confiai-lhe todas as vossas preocupações, porque Ele tem cuidado de vós” (I Pedro 5,7).
+
+Conte com as minhas orações.
+Fátima Nogueira – Comunidade Canção Nova.
+    </string>
+    <string name="videosIgreja">Vídeos Igreja</string>
+    <string name="videossantos">Vídeos Santos</string>
+    <string name="videossacramentos">Vídeos Sacramentos</string>
+
+
+    <string name="TEOLOGIADALIBERTACAOESUAINFLUENCIA">https://www.youtube.com/watch?v=jG81xG3vHQw</string>
+    <string name="PORQUESOUCATOLICO">https://www.youtube.com/watch?v=fnJNs_0mlro</string>
+    <string name="PEDROEOPRIMADOPAPAL">https://www.youtube.com/watch?v=RghqJtfjaWg</string>
+    <string name="CAPITALISMO">https://www.youtube.com/watch?v=xQFyp6rOHp8</string>
+    <string name="ORDEMDOSTEMPLARIOS">https://www.youtube.com/watch?v=1uIYbnqFF70</string>
+    <string name="FIDELIDADEAOPAPA">https://www.youtube.com/watch?v=sSYJWVlOzQw</string>
+    <string name="PORQUEAMISSADOSETIMODIA">https://www.youtube.com/watch?v=1vvyfCpa4Qg</string>
+    <string name="PORQUENAOCOMERCARNESEXTA">https://www.youtube.com/watch?v=bhMhR1RMmNc</string>
+    <string name="TODASASRELIGIOES">https://www.youtube.com/watch?v=1mLZAU6NVsg</string>
+    <string name="QUALAMISSAODEUMPAPA">https://www.youtube.com/watch?v=UMEtHYvvXk4</string>
+    <string name="PRESBITEROSEOREINO">https://www.youtube.com/watch?v=PUoZEhr6qJc</string>
+    <string name="OPURGATÓIO">https://www.youtube.com/watch?v=qF1xr6QvlWo</string>
+    <string name="TRIDUOPASCAL">https://www.youtube.com/watch?v=4LqatJj50qM</string>
+    <string name="COMOINTERPRETARASAGRADAESCRITURA">https://www.youtube.com/watch?v=d99yaRcNeAI</string>
+    <string name="PORQUECOBRIRASIMAGENSSACRASNAQUARESMA">https://www.youtube.com/watch?v=1vvyfCpa4Qg</string>
+    <string name="IGREJAAPOSCONCILIOVATICANOII">https://www.youtube.com/watch?v=wQUoa0KtcSs&amp;t=1242s</string>
+    <string name="INDULGENCIAS">https://www.youtube.com/watch?v=JVsCraBwQDk</string>
+    <string name="ComoacrersantidadeIgreja">https://www.youtube.com/watch?v=VTzILz7uDD4</string>
+    <string name="COMOENSINARSEUFILHOQUALAVERDADEIRAIGREJADECRISTO">https://www.youtube.com/watch?v=_TBWpGsChU8</string>
+
+    //GRUPO1 IGREJA
+    <string name="PORQUEDEVEMOSCOMUNGARAOMENOSUMAVEZPORANO">https://www.youtube.com/watch?v=dcR536_stJ0</string>
+    <string name="SANTISSIMAEUCARISTIA">https://www.youtube.com/watch?v=4x6YQxjIluU</string>
+    <string name="PRESENCAREALDEJESUSNAEUCARISTIA">https://www.youtube.com/watch?v=4B2_jPzY_xU</string>
+    <string name="IMPORTANCIADECOMUNGARBEM">https://www.youtube.com/watch?v=uZrF20K7Aqk</string>
+    <string name="COMUNHAOEUCARISTICAALVURAS">https://www.youtube.com/watch?v=_OKeG35viGw</string>
+    <string name="QUINTAFEIRAEUCARISTICASACRIFICIO">https://www.youtube.com/watch?v=Qh6esM9wxs0</string>
+    <string name="DEVOCOMUNGARCOMASMAOS">https://www.youtube.com/watch?v=g-RT7lZxODc</string>
+    <string name="PORQUEACAODEGRACAOAPOSCOMUNHAO">https://www.youtube.com/watch?v=MJizLcUUZBw</string>
+    <string name="NECESSARIOCURSODECATEQUESEPARAPRIMEIRACOMUNHAO">https://www.youtube.com/watch?v=jY15ztS84pA</string>
+    <string name="COMUNHAOSOBDUASESPECIES">https://www.youtube.com/watch?v=Vq5tfWGUf_k</string>
+    <string name="COMUNHAOEMPECADOGRAVE">https://www.youtube.com/watch?v=ZJOS97r_Gt4</string>
+    <string name="MILAGREEUCARISTICO">https://www.youtube.com/watch?v=uSIdPpV5yIA</string>
+
+    //GRUPO2 IGREJA
+    <string name="DIFERENCAENTREBIBLIACATOLICAEAPROTESTANTE">https://www.youtube.com/watch?v=HFDoM5zXv6M</string>
+    <string name="OPROTESTANTISMO">https://www.youtube.com/watch?v=VbhYT-jRYK0</string>
+    <string name="CHAVEPARAENTENDEROPROTESTANTISMO">https://www.youtube.com/watch?v=pnPBGv3R42g&amp;t=2959s</string>
+    <string name="DIFERENCABIBLIACATOLICAEPROTESTANTE">https://www.youtube.com/watch?v=HFDoM5zXv6M</string>
+    <string name="PORQUEOSPROTESTANTESNAOACREDITAMNASANTIDADE">https://www.youtube.com/watch?v=FRn-vELG9pc</string>
+    <string name="TESTEMUNHOSCOTTHAHN">https://www.youtube.com/watch?v=sWdN8F7rDGo</string>
+    <string name="CASAMENTOEMIGREJAPROTESTANTEEVALIDO">https://www.youtube.com/watch?v=BaiI389fVJE</string>
+    <string name="NEOPROTESTANTISMODENTRODAIGREJACATOLICA">https://www.youtube.com/watch?v=S07XLIpLdpY</string>
+    <string name="PORQUETANTOSCATOLICOSDEIXAMAIGREJA">https://www.youtube.com/watch?v=_g5hL5H1r3Q</string>
+    <string name="MARIAEUMAMULHERQUALQUER">https://www.youtube.com/watch?v=4YyPWIQgVEQ</string>
+    <string name="PORQUECATOLICOSPEDEMAMARIAENAOAJESUS">https://www.youtube.com/watch?v=lm3Rs0_3bXE</string>
+
+
+    //GRUPO3
+    <string name="COMOCONTROLARAPROPRIAIRRITACAO">https://www.youtube.com/watch?v=EaJg7Nk0DYg&amp;t=328s</string>
+    <string name="COMORENUNCIARASIMESMO">https://www.youtube.com/watch?v=URWvw7p62fs&amp;t=68s</string>
+    <string name="COMOOCRISTAODEHOJEDEVESEMORTIFICAR">https://www.youtube.com/watch?v=NNJKeJCKrPQ</string>
+    <string name="COMOCONCENTRARNAORACAO">https://www.youtube.com/watch?v=f1TnRFK2SDo</string>
+    <string name="COMOFAZERUMABOACONFICAO">https://www.youtube.com/watch?v=IQa4Pg2onX0&amp;t=601s</string>
+    <string name="COMOMERELACIONARCOMMEUANJODAGUARDA">https://www.youtube.com/watch?v=qLzpi094HfA&amp;t=3s</string>
+    <string name="COMOAPRENDERAREZAROTERCO">https://www.youtube.com/watch?v=fSIr2iftPUo&amp;t=918s</string>
+    <string name="COMODESCOBRIRMINHAVOCACAO">https://www.youtube.com/watch?v=5_uQCUb6IsQ</string>
+    <string name="COMODEVEMOSNOSPREPARARPARAMORTE">https://www.youtube.com/watch?v=BrV7hWfxDLY</string>
+    <string name="COMOINTERPRETARSAGRADAESCRITURA">https://www.youtube.com/watch?v=d99yaRcNeAI&amp;t=7s</string>
+    <string name="COMOFALARDESEXOCOMMEUSFILHOS">https://www.youtube.com/watch?v=Ei-Vqu27byM</string>
+    <string name="COMOSELIVRARDASDISTRACOES">https://www.youtube.com/watch?v=hvFc7OFtGFo&amp;t=344s</string>
+    <string name="COMOSELIVRARDOCIUMEDOENTIO">https://www.youtube.com/watch?v=xhY13bmyXbs</string>
+    <string name="COMOSELIVRARDOVICIODAMASTURBACAO">https://www.youtube.com/watch?v=MGo-7L9Qz1M</string>
+    <string name="COMOLEVARMEUSPAISPARAIGREJA">https://www.youtube.com/watch?v=7KD5flLl_Zw</string>
+    <string name="COMOCOMBATERAPREGUICAESPIRITUAL">https://www.youtube.com/watch?v=L3Wf3D8_TMM</string>
+    <string name="COMOSABEROTAMANHODOAMORDECRISTOPORNOS">https://www.youtube.com/watch?v=KwbjuGNolYk</string>
+    <string name="COMOAUMENTARMINHAFE">https://www.youtube.com/watch?v=VmCjgmt4Q4I</string>
+    <string name="COMOEDUCARSEUFILHOEMUMMUNDODOMINADOPELORELATIVISMOMORAL">https://www.youtube.com/watch?v=sKIB7WI7SlY</string>
+    <string name="COMOEDUCARSEUFILHOSQUANDOOSPAISTRABALHAMFORAL">https://www.youtube.com/watch?v=50FfHyHHDhk</string>
+    <string name="MODESTIACOMOAMULHERDEVESEPORTAR">https://www.youtube.com/watch?v=0YgwYzVnJJc</string>
+    <string name="COMOCONVIVERECUIDARDOSIDOSOS">https://www.youtube.com/watch?v=fTME9Qi_kQA</string>
+    <string name="COMOLIDARCOMCONFLITOMAEEESPOSA">https://www.youtube.com/watch?v=UkYBtUiyYeg</string>
+    <string name="COMOOFACEBOOKPODESERUMAARMADILHA">https://www.youtube.com/watch?v=yJueV4_a_ZA</string>
+    <string name="MULHERMODESTIAPARTE2">https://www.youtube.com/watch?v=aDPN3rry7fk&amp;t=467s</string>
+
+    <!--<string name=""></string>-->
+
+
+    // animator menu
+    <string name="menu_vector_path" translatable="false">M20 30,L80 30,M20 50,L80 50,M20 70,L80 70</string>
+    <string name="back_vector_path" translatable="false">M50 25,L80 50,M20 50,L80 50,M50 75,L80 50</string>
+    <string name="add_vector_path" translatable="false">M50 20,L50 80,M20 50,L80 50</string>
+    <string name="remove_vector_path" translatable="false">M60 25,L75 45,M25 75,L60 25</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main22">Main22Activity</string>
+    <string name="title_activity_menu_deslizante_aplicacao">MenuDeslizanteAplicacaoActivity</string>
+    <string name="pesquisa">pesquisa</string>
+    <string name="hint_pesquisar">Digite o que deseja pesquisar.</string>
+
+
+</resources>

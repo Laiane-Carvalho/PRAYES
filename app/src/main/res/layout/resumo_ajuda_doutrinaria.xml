@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="testeadapt3.cursoandroid2.com.pray.activities.ResumoAjudaDoutrinariaActivity">
+
+    <include
+        android:id="@+id/tollbardoutrina"
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+    </include>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_below="@id/tollbardoutrina">
+    </android.support.v4.view.ViewPager>
+
+
+    <testeadapt3.cursoandroid2.com.pray.util.SlidingTabLayout
+        android:id="@+id/slidingTabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="5dp"
+        android:layout_gravity="top"
+        android:foregroundGravity="top"
+        android:layout_below="@id/viewPager"
+        android:background="@color/colorPrimary">
+
+    </testeadapt3.cursoandroid2.com.pray.util.SlidingTabLayout>
+
+
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="1"-->
+        <!--android:gravity="top"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<LinearLayout-->
+                <!--android:id="@+id/videosIgreja"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="1"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_weight="2"-->
+                    <!--android:padding="10dp"-->
+                    <!--android:background="@drawable/igreja"/>-->
+
+                <!--<Button-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:background="@drawable/botoes_transparentes_pretos_quadrados"-->
+                    <!--android:fontFamily="casual"-->
+                    <!--android:gravity="center"-->
+                    <!--android:padding="10dp"-->
+                    <!--android:scaleType="fitCenter"-->
+                    <!--android:text="@string/videosIgreja"-->
+                    <!--android:theme="@style/MyThemeButtons" />-->
+            <!--</LinearLayout>-->
+
+
+            <!--<LinearLayout-->
+                <!--android:id="@+id/videosSantos"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="1"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_weight="2"-->
+                    <!--android:background="@drawable/padrepio"-->
+                    <!--android:padding="10dp" />-->
+
+                <!--<Button-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:background="@drawable/botoes_transparentes_pretos_quadrados"-->
+                    <!--android:gravity="center"-->
+                    <!--android:text="@string/videossantos"-->
+                    <!--android:theme="@style/MyThemeButtons" />-->
+
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:id="@+id/videosSacramentos"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="1"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<ImageView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_weight="2"-->
+                    <!--android:background="@drawable/alianca1"-->
+                    <!--android:padding="10dp" />-->
+
+                <!--<Button-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:background="@drawable/botoes_transparentes_pretos_quadrados"-->
+                    <!--android:gravity="center"-->
+                    <!--android:text="@string/videossacramentos"-->
+                    <!--android:theme="@style/MyThemeButtons" />-->
+            <!--</LinearLayout>-->
+
+        <!--</LinearLayout>-->
+
+    <!--</LinearLayout>-->
+</LinearLayout>
+
