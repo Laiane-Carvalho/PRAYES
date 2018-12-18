@@ -8,16 +8,14 @@
         <item name="windowNoTitle">true</item>
         <item name="colorPrimary">#030303</item>
         <item name="colorPrimaryDark">#303030</item>
-        <item name="colorAccent">#FDD835</item>
+        <item name="colorAccent">#aeadad</item>
         <item name="android:textColor">#060606</item>
         <item name="android:textColorSecondary">#7b7a7a</item>
-        <item name="android:colorControlActivated">#4ac63c
-        </item> <!--<nao sei ainda do que se trata-->
-        <item name="android:colorControlHighlight">#f4d258
-        </item><!--<clique dos itens tollbar e lista-->
+        <item name="android:colorControlActivated">#f5ee83</item> <!--< detalhes da seleccao-->
+        <item name="android:colorControlHighlight">#f5ee83</item><!--<clique dos itens tollbar e lista-->
         <item name="android:colorControlNormal">#818180</item><!--<cor barra lateral-->
         <item name="android:colorForeground">#ce4e09</item> <!--<corNomeToolbar-->
-        <item name="android:colorEdgeEffect">#f5d95e</item> <!--<cor base texto quando esticado-->
+        <item name="android:colorEdgeEffect">@color/colorPrimaryDark</item> <!--<cor base texto quando esticado-->
         <item name="android:colorSecondary" tools:ignore="NewApi">#f5d95e</item>
         <item name="android:colorError" tools:ignore="NewApi">#d20b9d</item>
         <item name="android:statusBarColor">#131313</item>
@@ -45,8 +43,16 @@
         <item name="android:fontFamily">casual</item>
     </style>
 
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">#673AB7</item>
+        <item name="colorPrimaryDark">#512DA8</item>
+        <item name="colorAccent">#00BCD4</item>
+
+    </style>
     <style name="MyThemePryers.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="MyThemePryers.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
 
 </resources>

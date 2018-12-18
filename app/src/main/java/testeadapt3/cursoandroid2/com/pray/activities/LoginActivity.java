@@ -23,6 +23,12 @@ public class LoginActivity extends AppCompatActivity {
             "Novo"};
 
     @Override
+    protected void onStart() {
+        super.onStart();
+        loginFacebook.verificationsttatus();
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
         setContentView( R.layout.activity_loguin );
@@ -75,7 +81,9 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void logarFacebook() {
-        irPrayers();
+
+        loginFacebook.loginFacebook();
+       // irPrayers();
     }
 
     private void irPrayers() {

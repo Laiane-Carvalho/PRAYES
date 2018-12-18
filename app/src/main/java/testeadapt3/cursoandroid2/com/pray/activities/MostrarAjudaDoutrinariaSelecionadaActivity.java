@@ -18,12 +18,13 @@ import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Button;
+import android.widget.Toast;
 
 import testeadapt3.cursoandroid2.com.pray.R;
 import testeadapt3.cursoandroid2.com.pray.adapter.Filho;
 
-public class MostrarAjudaDoutrinariaSelecionadaActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+public class MostrarAjudaDoutrinariaSelecionadaActivity extends AppCompatActivity{
+//        implements NavigationView.OnNavigationItemSelectedListener {
 
     Filho filho;
     WebView view;
@@ -51,7 +52,8 @@ public class MostrarAjudaDoutrinariaSelecionadaActivity extends AppCompatActivit
         botaoProximo.setText( "PROXIMO VIDEO" );
         view = (WebView) findViewById( R.id.webView );
 
-        chamarWebView();construirDrawer();
+        chamarWebView();
+       // construirDrawer();
     }
 
     private void contruirActioneAnimacao() {
@@ -60,27 +62,28 @@ public class MostrarAjudaDoutrinariaSelecionadaActivity extends AppCompatActivit
 
         //animacao de menu na actionbar https://medium.com/android-dev-br/criando-%C3%ADcones-animados-no-android-14b2d5feb877
         getSupportActionBar().setDisplayOptions( ActionBar.DISPLAY_HOME_AS_UP );
-        getSupportActionBar().setHomeAsUpIndicator( R.drawable.ic_menu_vector );
-        mMenuDrawable = (AnimatedVectorDrawable) getDrawable( R.drawable.ic_menu_animatable );
-        mBackDrawable = (AnimatedVectorDrawable) getDrawable( R.drawable.ic_back_animatable );
+        //animacao setas e menus
+//        getSupportActionBar().setHomeAsUpIndicator( R.drawable.ic_menu_vector );
+//        mMenuDrawable = (AnimatedVectorDrawable) getDrawable( R.drawable.ic_menu_animatable );
+//        mBackDrawable = (AnimatedVectorDrawable) getDrawable( R.drawable.ic_back_animatable );
 
     }
 
-    @Override
-    public void onBackPressed() {
-        DrawerLayout drawer = (DrawerLayout) findViewById( R.id.drawer_layout );
-        if (drawer.isDrawerOpen( GravityCompat.START )) {
-            drawer.closeDrawer( GravityCompat.START );
-        } else {
-            super.onBackPressed();
-        }
-    }
+//    @Override
+//    public void onBackPressed() {
+//        DrawerLayout drawer = (DrawerLayout) findViewById( R.id.drawer_layout );
+//        if (drawer.isDrawerOpen( GravityCompat.START )) {
+//            drawer.closeDrawer( GravityCompat.START );
+//        } else {
+//            super.onBackPressed();
+//        }
+//    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case android.R.id.home:
-                menuClick();
+                //menuClick();
                 break;
         }
 
@@ -88,35 +91,37 @@ public class MostrarAjudaDoutrinariaSelecionadaActivity extends AppCompatActivit
     }
 
     //itens de navegacao menu drawer
-    @Override
-    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-        int id = item.getItemId();
-
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
-
-        } else if (id == R.id.nav_slideshow) {
-
-        } else if (id == R.id.nav_manage) {
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
-
-        }
-        DrawerLayout drawer = (DrawerLayout) findViewById( R.id.drawer_layout );
-        drawer.closeDrawer( GravityCompat.START );
-        return true;
-    }
+//    @Override
+//    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+//        int id = item.getItemId();
+//
+//        if (id == R.id.nav_camera) {
+//            // Handle the camera action
+//        } else if (id == R.id.nav_gallery) {
+//
+//        } else if (id == R.id.nav_slideshow) {
+//
+//        } else if (id == R.id.nav_manage) {
+//
+//        } else if (id == R.id.nav_share) {
+//
+//        } else if (id == R.id.nav_send) {
+//
+//        }
+//        DrawerLayout drawer = (DrawerLayout) findViewById( R.id.drawer_layout );
+//        drawer.closeDrawer( GravityCompat.START );
+//        return true;
+//    }
 
     //metodod da animacao icone menu action
     private void menuClick() {
         if (mMenuFlag) {
             getSupportActionBar().setHomeAsUpIndicator( mBackDrawable );
+            Toast.makeText( this,"vc clicou fechar",Toast.LENGTH_SHORT ).show();
             mBackDrawable.start();
         } else {
             getSupportActionBar().setHomeAsUpIndicator( mMenuDrawable );
+            Toast.makeText( this,"vc clicou menu",Toast.LENGTH_SHORT ).show();
             mMenuDrawable.start();
         }
         mMenuFlag = !mMenuFlag;
@@ -130,16 +135,15 @@ public class MostrarAjudaDoutrinariaSelecionadaActivity extends AppCompatActivit
         }
     }
 
-    private void construirDrawer() {
-        DrawerLayout drawer = (DrawerLayout) findViewById( R.id.drawer_layout );
-        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
-                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close );
-        drawer.addDrawerListener( toggle );
-        toggle.syncState();
-        NavigationView navigationView = (NavigationView) findViewById( R.id.nav_view );
-        navigationView.setNavigationItemSelectedListener( this );
-    }
-
+//    private void construirDrawer() {
+//        DrawerLayout drawer = (DrawerLayout) findViewById( R.id.drawer_layout );
+//        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
+//                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close );
+//        drawer.addDrawerListener( toggle );
+//        toggle.syncState();
+//        NavigationView navigationView = (NavigationView) findViewById( R.id.nav_view );
+//        navigationView.setNavigationItemSelectedListener( this );
+//    }
     private void chamarWebView() {
         view.setWebViewClient( new MyBrowser() );
         view.getSettings().setJavaScriptEnabled( true );

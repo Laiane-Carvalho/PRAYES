@@ -15,14 +15,15 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import testeadapt3.cursoandroid2.com.pray.R;
+import testeadapt3.cursoandroid2.com.pray.logins.LoginFacebook;
 
 public class ApresentacaoOpcoesAppActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Button oracoes;
     private Button ajudaDoutrinaria;
     private Button catecismo;
-//    private Button questionamentos;
     private Toolbar toolbar;
+
     Animation dowToUp, downToUpAjudaDoutrinaria, downToUpCatecismo, downToUpQuestionamentos;
 
     @Override
@@ -88,7 +89,6 @@ public class ApresentacaoOpcoesAppActivity extends AppCompatActivity implements 
             AlertDialogCustomActivity cdd = new AlertDialogCustomActivity( ApresentacaoOpcoesAppActivity.this );
             cdd.setCanceledOnTouchOutside( false );
             cdd.show();
-
             return true;
         }
 

@@ -19,7 +19,6 @@ import testeadapt3.cursoandroid2.com.pray.fragments.SantoTercoFragment;
 
 public class MostrarOracoesSelecionadasActivity extends AppCompatActivity {
 
-
     Filho filho;
     private TextView textViewMostrarOracoes;
     private AnimatedVectorDrawable mMenuDrawable;
@@ -35,24 +34,24 @@ public class MostrarOracoesSelecionadasActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayShowTitleEnabled(false);
         getSupportActionBar().setDisplayOptions( ActionBar.DISPLAY_HOME_AS_UP);
-        getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_menu_vector);
-        mMenuDrawable = (AnimatedVectorDrawable) getDrawable(R.drawable.ic_menu_animatable);
-        mBackDrawable = (AnimatedVectorDrawable) getDrawable(R.drawable.ic_back_animatable);
 
+        //animacao das setas e menus
+//        getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_menu_vector);
+//        mMenuDrawable = (AnimatedVectorDrawable) getDrawable(R.drawable.ic_menu_animatable);
+//        mBackDrawable = (AnimatedVectorDrawable) getDrawable(R.drawable.ic_back_animatable);
 
         textViewMostrarOracoes = findViewById( R.id.textViewMostarOracoes );
         Intent i = getIntent();
         filho = i.getExtras().getParcelable( "filho" );
         textViewMostrarOracoes.setText(this.getString(filho.getNameID()));
+        textViewMostrarOracoes.setTextIsSelectable( true ); // selecionar copiar e compartilhar texto...
 
         textViewMostrarOracoes.setOnLongClickListener( new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View v) {
-
                 Toast.makeText( getApplicationContext(),"clicado e segurado",Toast.LENGTH_SHORT ).show();
 
                 return false;
-
             }
         } );
     }
@@ -61,7 +60,8 @@ public class MostrarOracoesSelecionadasActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
 
         if (item.getItemId() == android.R.id.home) {
-            menuClick();
+            Toast.makeText( this, "clicado na seta",Toast.LENGTH_SHORT ).show();
+//            menuClick();
             return true;
         }
 

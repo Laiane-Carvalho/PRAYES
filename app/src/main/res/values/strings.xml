@@ -1,11 +1,13 @@
 <resources>
+
+
     <string name="app_name">Pray</string>
     <string name="app_nameNome">Nome</string>
     <string name="app_nameEmail">Email</string>
     <string name="app_senha">Senha</string>
 
-    <string name="facebook_app_id">2147074982206130</string>
-    <string name="fb_login_protocol_scheme">fb2147074982206130</string>
+    <string name="facebook_app_id">566672227093494</string>
+    <string name="fb_login_protocol_scheme">fb566672227093494</string>
     <string name="oracao">Oracao</string>
     <string name="oracoes">Orações</string>
     <string name="out">Sair</string>

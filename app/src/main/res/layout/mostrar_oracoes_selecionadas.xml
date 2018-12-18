@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/madeira"
     tools:context="testeadapt3.cursoandroid2.com.pray.activities.MostrarOracoesSelecionadasActivity">
 
     <include
@@ -23,11 +24,12 @@
             <TextView
                 android:id="@+id/textViewMostarOracoes"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:fontFamily="casual"
-                android:gravity="center"
+                android:gravity="start"
+                android:textColor="@color/cororOracoesDiarias"
                 android:text="teste"
-                android:textSize="15dp"
+                android:textSize="16dp"
                 android:clickable="true"/>
         </ScrollView>
     </LinearLayout>

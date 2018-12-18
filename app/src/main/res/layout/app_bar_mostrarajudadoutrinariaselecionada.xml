@@ -25,7 +25,7 @@
 
     <!--</android.support.design.widget.AppBarLayout>-->
 
-    <include layout="@layout/content_mostrarajudadoutrinariaselecionada" />
+    <!--<include layout="@layout/content_mostrarajudadoutrinariaselecionada" />-->
 
 
 </android.support.design.widget.CoordinatorLayout>

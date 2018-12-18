@@ -1,35 +1,27 @@
 {
   "project_info": {
-    "project_number": "115380355075",
-    "firebase_url": "https://prayers-393f0.firebaseio.com",
-    "project_id": "prayers-393f0",
-    "storage_bucket": "prayers-393f0.appspot.com"
+    "project_number": "187611267200",
+    "firebase_url": "https://prayers-2dcd7.firebaseio.com",
+    "project_id": "prayers-2dcd7",
+    "storage_bucket": "prayers-2dcd7.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:115380355075:android:1d55ac227529159e",
+        "mobilesdk_app_id": "1:187611267200:android:1d55ac227529159e",
         "android_client_info": {
           "package_name": "testeadapt3.cursoandroid2.com.pray"
         }
       },
       "oauth_client": [
         {
-          "client_id": "115380355075-eedtms6umi9djk2h753sf9elpas5fbmk.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "testeadapt3.cursoandroid2.com.pray",
-            "certificate_hash": "c691ffc2021de7ab3469a0148eb688730981840b"
-          }
-        },
-        {
-          "client_id": "115380355075-0biadfi9jurfll7q64oashg2jr00qv38.apps.googleusercontent.com",
+          "client_id": "187611267200-norbnt73ppge5rih5qrfcqjqoq8cfe9l.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB6v_qIt7cMhaBPz3qqdlzha5fvsI9rD24"
+          "current_key": "AIzaSyBo6aRHX596q83fDDTCJcAlOgAGakODhW4"
         }
       ],
       "services": {
@@ -37,13 +29,8 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 2,
-          "other_platform_oauth_client": [
-            {
-              "client_id": "115380355075-0biadfi9jurfll7q64oashg2jr00qv38.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "status": 1,
+          "other_platform_oauth_client": []
         },
         "ads_service": {
           "status": 2

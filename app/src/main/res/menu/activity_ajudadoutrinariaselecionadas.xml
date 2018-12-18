@@ -34,7 +34,4 @@
                 android:title="Send" />
         </menu>
     </item>
-
-    <item
-        ></item>
 </menu>

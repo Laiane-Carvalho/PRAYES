@@ -19,6 +19,9 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FacebookAuthProvider;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.facebook.FacebookSdk;
+import com.facebook.appevents.AppEventsLogger;
+
 
 import java.util.Arrays;
 
@@ -39,6 +42,7 @@ public class LoginFacebook {
 
     public LoginFacebook(Activity activity) {
         this.activity=activity;
+        auth = FirebaseAuth.getInstance();
 
     }
     public void loginFacebook() {
@@ -69,6 +73,7 @@ public class LoginFacebook {
         Log.d( TAG, "handleFacebookAccessToken:" + token );
 
         AuthCredential credential = FacebookAuthProvider.getCredential( token.getToken() );
+        auth.getInstance();
         auth.signInWithCredential( credential )
                 .addOnCompleteListener( activity, new OnCompleteListener<AuthResult>() {
                     @Override
@@ -101,13 +106,11 @@ public class LoginFacebook {
 
     }
 
-    protected void verificationsttatus() {
+    public void verificationsttatus() {
         AccessToken accessToken = AccessToken.getCurrentAccessToken();
         boolean isLoggedIn = accessToken != null && !accessToken.isExpired();
         if (isLoggedIn) {
             irParaPrincipal();
-        } else {
-            Toast.makeText( activity, "deslogado do facebook", Toast.LENGTH_LONG ).show();
         }
     }
     public void sairFacebook(){
