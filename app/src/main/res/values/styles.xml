@@ -18,7 +18,7 @@
 
 
     </style>
-    
+
 
     <style name="TabLayoutStyle" parent="Base.Widget.Design.TabLayout">
         <item name="tabMaxWidth">@dimen/tab_max_width</item>
