@@ -113,12 +113,13 @@ public class LoginFacebook {
             irParaPrincipal();
         }
     }
-    public void sairFacebook(){
+    public void sairFacebook() {
         auth.signOut();
         LoginManager.getInstance().logOut();
-        Intent intent = new Intent(activity, LoginActivity.class);
+        Intent intent = new Intent( activity, LoginActivity.class );
         activity.startActivity( intent );
         activity.finish();
-        Toast.makeText( activity,"Deslogando do facebook",Toast.LENGTH_LONG ).show();
+        Toast.makeText( activity, "Deslogando do facebook", Toast.LENGTH_LONG ).show();
     }
+
 }

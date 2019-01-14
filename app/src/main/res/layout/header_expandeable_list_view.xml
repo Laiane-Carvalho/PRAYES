@@ -3,13 +3,14 @@
     android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/transparencia_exponable_grupo"
     android:padding="5dp">
 
     <TextView
         android:id="@+id/tvGroup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        style="@style/MyThemeList"
         android:layout_marginLeft="15dp"/>
+        <!--style="@style/MeuTemaListas"-->
 
 </LinearLayout>

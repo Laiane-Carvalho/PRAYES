@@ -17,6 +17,7 @@ import java.util.HashMap;
 import java.util.List;
 
 import testeadapt3.cursoandroid2.com.pray.R;
+import testeadapt3.cursoandroid2.com.pray.activities.ActivityMostrarAjudaSelecionada;
 import testeadapt3.cursoandroid2.com.pray.activities.MostrarOracoesSelecionadasActivity;
 import testeadapt3.cursoandroid2.com.pray.adapter.ExpandableAdapter;
 import testeadapt3.cursoandroid2.com.pray.adapter.Filho;
@@ -54,6 +55,7 @@ public class OracoesDiariasFragment extends ListFragment {
                 Filho filho = listData.get( grupo ).get( childPosition );
 
                 Intent intent = new Intent( getActivity(), MostrarOracoesSelecionadasActivity.class );
+
                 intent.putExtra( "filho", filho );
                 startActivity( intent );
 

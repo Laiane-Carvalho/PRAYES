@@ -15,7 +15,7 @@ import java.util.HashMap;
 import java.util.List;
 
 import testeadapt3.cursoandroid2.com.pray.R;
-import testeadapt3.cursoandroid2.com.pray.activities.MostrarAjudaDoutrinariaSelecionadaActivity;
+import testeadapt3.cursoandroid2.com.pray.activities.ActivityMostrarAjudaSelecionada;
 import testeadapt3.cursoandroid2.com.pray.adapter.ExpandableAdapter;
 import testeadapt3.cursoandroid2.com.pray.adapter.Filho;
 
@@ -46,7 +46,8 @@ public class SantosFragment extends ListFragment {
                 String grupo = listGroup.get( groupPosition );
                 Filho filho = listData.get( grupo ).get( childPosition );
 
-                Intent intent = new Intent( getActivity(), MostrarAjudaDoutrinariaSelecionadaActivity.class );
+                //no momento da criacao para os santos eé preciso trocar a activity a que se refere abaixo
+                Intent intent = new Intent( getActivity(), ActivityMostrarAjudaSelecionada.class );
                 intent.putExtra( "filho", filho );
                 startActivity( intent );
 

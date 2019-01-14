@@ -1,37 +1,52 @@
 package testeadapt3.cursoandroid2.com.pray.activities;
 
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.design.widget.TabLayout;
+import android.support.v4.view.ViewPager;
 import android.support.v7.widget.Toolbar;
-import android.view.Window;
 
+import butterknife.BindView;
 import testeadapt3.cursoandroid2.com.pray.R;
 import testeadapt3.cursoandroid2.com.pray.adapter.TabsAdapterDoutrina;
-import testeadapt3.cursoandroid2.com.pray.util.SlidingTabLayout;
 
-public class ResumoAjudaDoutrinariaActivity extends AppCompatActivity {
+public class ResumoAjudaDoutrinariaActivity extends SupportActivity  {
 
-    private SlidingTabLayout slidingTabLayout;
-    private ViewPager viewPager;
-    private Toolbar toolbar;
+    @BindView( R.id.viewPager )
+     ViewPager viewPager;
+
+    @BindView( R.id.tollbardoutrina )
+     Toolbar toolbar;
+
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate( savedInstanceState );
-        setContentView( R.layout.resumo_ajuda_doutrinaria );
-        //configurar tollbarCustom
-        toolbar=findViewById( R.id.tollbardoutrina );
-        setSupportActionBar( toolbar );
-        getSupportActionBar().setDisplayShowTitleEnabled(false);
+    int layoutID() {
+        return R.layout.resumo_ajuda_doutrinaria;
+    }
 
-        slidingTabLayout = findViewById( R.id.slidingTabLayout );
-        viewPager = findViewById( R.id.viewPager );
+    @Override
+    void inicializar(Bundle savedInstanceState) {
+        setSupportActionBar( toolbar );
+        getSupportActionBar().setDisplayShowTitleEnabled( false );
 
         //configurar adapter
-        TabsAdapterDoutrina tabsAdapter = new TabsAdapterDoutrina(getSupportFragmentManager() ,this );
+        TabsAdapterDoutrina tabsAdapter = new TabsAdapterDoutrina( getSupportFragmentManager(), this );
         viewPager.setAdapter( tabsAdapter );
-        slidingTabLayout.setCustomTabView( R.layout.tabs_view, R.id.item_tab_text );
-        slidingTabLayout.setDistributeEvenly( true );
-        slidingTabLayout.setViewPager( viewPager );
+
+        //chamar Tab (Abas)
+        TabLayout tabLayout  =  ( TabLayout )  findViewById ( R.id.tabLayout );
+        tabLayout.setupWithViewPager(viewPager);
+
     }
+
+//    @Override
+//    public boolean onCreateOptionsMenu(Menu menu) {
+//        MenuInflater inflater = getMenuInflater();
+//        inflater.inflate( R.menu.activity_ajudadoutrinariaselecionadas, menu );
+//
+//        //menuu pesquisa...
+//        MenuItem searchItem = menu.findItem( R.id.pesquisa );
+//        SearchView searchView = (SearchView) MenuItemCompat.getActionView( searchItem );
+//        searchView.setOnQueryTextListener( (SearchView.OnQueryTextListener) this );
+//
+//        return true;
+//    }
 }

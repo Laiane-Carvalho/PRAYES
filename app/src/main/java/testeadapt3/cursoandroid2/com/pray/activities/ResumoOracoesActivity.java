@@ -1,59 +1,57 @@
 package testeadapt3.cursoandroid2.com.pray.activities;
 
 import android.content.Intent;
+import android.os.Bundle;
+import android.support.design.widget.TabLayout;
 import android.support.v4.view.MenuItemCompat;
 import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.support.v7.widget.SearchView;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
+import butterknife.BindView;
 import testeadapt3.cursoandroid2.com.pray.R;
 import testeadapt3.cursoandroid2.com.pray.adapter.TabsAdapter;
-import testeadapt3.cursoandroid2.com.pray.util.SlidingTabLayout;
 
-public class ResumoOracoesActivity extends AppCompatActivity
-        implements SearchView.OnQueryTextListener{
+public class ResumoOracoesActivity extends SupportActivity
+        implements SearchView.OnQueryTextListener {
 
-    private SlidingTabLayout slidingTabLayout;
-    private ViewPager viewPager;
-    private Toolbar toolbar;
+    @BindView(R.id.viewPager)
+    ViewPager viewPager;
+
+    @BindView(R.id.tollbarresumo)
+    Toolbar toolbar;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate( savedInstanceState );
-        setContentView( R.layout.resumo_oracoes );
+    int layoutID() {
+        return R.layout.resumo_oracoes;
+    }
 
-        //configurar tollbarCustom
-        toolbar=findViewById( R.id.tollbarresumo );
+    @Override
+    void inicializar(Bundle savedInstanceState) {
         setSupportActionBar( toolbar );
-        getSupportActionBar().setDisplayShowTitleEnabled(false);
-
-        //configurar abas
-        slidingTabLayout = findViewById( R.id.slidingTabLayout );
-        viewPager = findViewById( R.id.viewPager );
+        getSupportActionBar().setDisplayShowTitleEnabled( false );
 
         //configurar adapter
-        TabsAdapter tabsAdapter = new TabsAdapter(getSupportFragmentManager() ,this );
+        TabsAdapter tabsAdapter = new TabsAdapter( getSupportFragmentManager(), this );
         viewPager.setAdapter( tabsAdapter );
-        slidingTabLayout.setCustomTabView( R.layout.tabs_view, R.id.item_tab_text );
-        slidingTabLayout.setDistributeEvenly( true );
-        slidingTabLayout.setViewPager( viewPager );
 
+        //chamar Tab (Abas)
+        TabLayout tabLayout = findViewById( R.id.tabLayout );
+//        tabLayout.setTabIndicatorFullWidth( true );
+        tabLayout.setupWithViewPager( viewPager );
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate( R.menu.menu_resumo_oracoes, menu );
-
         //menuu pesquisa...
-        MenuItem searchItem = menu.findItem(R.id.pesquisa);
-        SearchView searchView = (SearchView) MenuItemCompat.getActionView(searchItem);
-        searchView.setOnQueryTextListener(this);
+        MenuItem searchItem = menu.findItem( R.id.pesquisa );
+        SearchView searchView = (SearchView) MenuItemCompat.getActionView( searchItem );
+        searchView.setOnQueryTextListener( this );
 
         return true;
     }
@@ -61,17 +59,16 @@ public class ResumoOracoesActivity extends AppCompatActivity
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 
-        switch (item.getItemId()){
+        switch (item.getItemId()) {
             case R.id.out:
-                AlertDialogCustomActivity cdd=new AlertDialogCustomActivity(ResumoOracoesActivity.this);
-                cdd.setCanceledOnTouchOutside(false);
+                AlertDialogCustomActivity cdd = new AlertDialogCustomActivity( ResumoOracoesActivity.this );
+                cdd.setCanceledOnTouchOutside( false );
                 cdd.show();
                 return true;
             case R.id.retornar:
-                startActivity( new Intent( getApplicationContext(),ApresentacaoOpcoesAppActivity.class ) );
+                startActivity( new Intent( getApplicationContext(), ApresentacaoOpcoesAppActivity.class ) );
                 return true;
         }
-
         return super.onOptionsItemSelected( item );
     }
 

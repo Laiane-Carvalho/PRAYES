@@ -2,59 +2,64 @@ package testeadapt3.cursoandroid2.com.pray.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.Window;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
-import android.widget.Toast;
+import android.widget.ImageButton;
+import android.widget.RelativeLayout;
 
+import butterknife.BindView;
+import butterknife.OnClick;
 import testeadapt3.cursoandroid2.com.pray.R;
-import testeadapt3.cursoandroid2.com.pray.logins.LoginFacebook;
 
-public class ApresentacaoOpcoesAppActivity extends AppCompatActivity implements View.OnClickListener {
+public class ApresentacaoOpcoesAppActivity extends SupportActivity implements View.OnClickListener {
 
-    private Button oracoes;
-    private Button ajudaDoutrinaria;
-    private Button catecismo;
-    private Toolbar toolbar;
+    @BindView(R.id.oracoes)
+    Button oracoes;
 
-    Animation dowToUp, downToUpAjudaDoutrinaria, downToUpCatecismo, downToUpQuestionamentos;
+    @BindView(R.id.AjudaDoutrinaria)
+    Button ajudaDoutrinaria;
+
+    @BindView(R.id.catecismo)
+    Button catecismo;
+
+    @BindView(R.id.relativeLayout)
+    RelativeLayout relativeLayoutFundo;
+
+    @BindView(R.id.botaoExitApp)
+    ImageButton botaoExitApp;
+
+    AlertDialogCustomActivity alertDialogCustomActivity;
+
+    Animation dowToUp, downToUpAjudaDoutrinaria, downToUpCatecismo, backtela;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate( savedInstanceState );
-        setContentView( R.layout.activity_apresentacao_opcoes_app );
-        toolbar = findViewById( R.id.toolbarPrayers );
-        setSupportActionBar( toolbar );
-        getSupportActionBar().setDisplayShowTitleEnabled(false);
-        oracoes = findViewById( R.id.oracoes );
-        ajudaDoutrinaria = findViewById( R.id.AjudaDoutrinaria );
-        catecismo = findViewById( R.id.catecismo );
-//        questionamentos = findViewById( R.id.questionamentos );
+    int layoutID() {
+        return R.layout.activity_apresentacao_opcoes_app;
+    }
 
+    @Override
+    void inicializar(Bundle savedInstanceState) {
         animacoes();
+        clicks();
 
-        oracoes.setOnClickListener( new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                irResumoOracoes();
-            }
-        } );
-        ajudaDoutrinaria.setOnClickListener( new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                irAjudadedoutrina();
-            }
-        } );
+    }
+
+    private void clicks() {
+        oracoes.setOnClickListener( this );
+        ajudaDoutrinaria.setOnClickListener( this );
+        catecismo.setOnClickListener( this );
+        botaoExitApp.setOnClickListener( this );
+        alertDialogCustomActivity = new AlertDialogCustomActivity( this );
     }
 
     private void animacoes() {
+        backtela = AnimationUtils.loadAnimation( this, R.anim.telaback );
+        relativeLayoutFundo.setAnimation( backtela );
 
         dowToUp = AnimationUtils.loadAnimation( this, R.anim.downtoup );
         oracoes.setAnimation( dowToUp );
@@ -64,35 +69,6 @@ public class ApresentacaoOpcoesAppActivity extends AppCompatActivity implements 
 
         downToUpCatecismo = AnimationUtils.loadAnimation( this, R.anim.downtoupcatecismo );
         catecismo.setAnimation( downToUpCatecismo );
-//
-//        downToUpQuestionamentos = AnimationUtils.loadAnimation( this, R.anim.downtoumquestionamentos );
-//        questionamentos.setAnimation( downToUpQuestionamentos );
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate( R.menu.menu_apresentacao_opcao_app, menu );
-
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.outprayers) {
-            AlertDialogCustomActivity cdd = new AlertDialogCustomActivity( ApresentacaoOpcoesAppActivity.this );
-            cdd.setCanceledOnTouchOutside( false );
-            cdd.show();
-            return true;
-        }
-
-        return super.onOptionsItemSelected( item );
     }
 
     @Override
@@ -108,30 +84,32 @@ public class ApresentacaoOpcoesAppActivity extends AppCompatActivity implements 
             case R.id.catecismo:
                 irResumoCatecismo();
                 break;
-//            case R.id.questionamentos:
-//                irResumoQuestionamentos();
-//                break;
+            case R.id.botaoExitApp:
+                exitApp();
+                break;
         }
     }
 
-    private void irAjudadedoutrina() {
-        Toast.makeText( this, "vc clicou em ajuda doutrinaria", Toast.LENGTH_SHORT ).show();
+    private void exitApp() {
+        alertDialogCustomActivity.verificationsttatus();
+    }
 
-        Intent intent = new Intent( ApresentacaoOpcoesAppActivity.this, ResumoAjudaDoutrinariaActivity.class );
+    private void irAjudadedoutrina() {
+        Intent intent = new Intent( this, ResumoAjudaDoutrinariaActivity.class );
         startActivity( intent );
     }
 
     private void irResumoOracoes() {
-        Toast.makeText( this, "vc clicou em oracoes", Toast.LENGTH_SHORT ).show();
         Intent intent = new Intent( this, ResumoOracoesActivity.class );
         startActivity( intent );
     }
 
-    private void irResumoQuestionamentos() {
-    }
-
     private void irResumoCatecismo() {
+        Intent intent = new Intent( this, ResumoOracoesActivity.class );
+        startActivity( intent );
     }
+    @OnClick(R.id.botaoExitApp)
+    public void botaoExitApp(){
 
-
+    }
 }

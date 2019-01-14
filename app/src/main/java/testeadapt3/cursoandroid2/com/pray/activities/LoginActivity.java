@@ -12,10 +12,12 @@ import com.squareup.picasso.Picasso;
 
 import testeadapt3.cursoandroid2.com.pray.R;
 import testeadapt3.cursoandroid2.com.pray.logins.LoginFacebook;
+import testeadapt3.cursoandroid2.com.pray.logins.LoginGoogle;
 
-public class LoginActivity extends AppCompatActivity {
+public class LoginActivity extends SupportActivity {
 
     LoginFacebook loginFacebook;
+    LoginGoogle loginGoogle;
     String arrayNames[] = {
             "Facebook",
             "Twitter",
@@ -29,12 +31,16 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate( savedInstanceState );
-        setContentView( R.layout.activity_loguin );
+    int layoutID() {
+        return R.layout.activity_loguin;
+    }
+
+    @Override
+    void inicializar(Bundle savedInstanceState) {
         Picasso.with( getApplication() ).load( R.drawable.praylay ).resize( 256, 256 ).centerCrop();
 
         loginFacebook = new LoginFacebook( this );
+        loginGoogle = new LoginGoogle( this );
 
         CircleMenu circleMenu = (CircleMenu) findViewById( R.id.circule_menu );
         circleMenu.setMainMenu( Color.parseColor( "#CDCDCD" ), R.drawable.icadd, R.drawable.icremove )
@@ -68,7 +74,6 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void criarConta() {
-
         irPrayers();
     }
 
@@ -77,13 +82,11 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     private void logarGoogle() {
-        irPrayers();
+        loginGoogle.logandoGoogle();
     }
 
     private void logarFacebook() {
-
         loginFacebook.loginFacebook();
-       // irPrayers();
     }
 
     private void irPrayers() {
@@ -95,6 +98,7 @@ public class LoginActivity extends AppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult( requestCode, resultCode, data );
-        loginFacebook.onActivityResult( requestCode, resultCode, data );
+//        loginFacebook.onActivityResult( requestCode, resultCode, data );
+        loginGoogle.onActivityResult( requestCode,resultCode,data);
     }
 }

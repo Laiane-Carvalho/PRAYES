@@ -2,47 +2,88 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="@drawable/alert_dialog_custon"
-    android:orientation="vertical"
+    android:layout_height="match_parent"
     android:layout_gravity="center"
+    android:orientation="vertical"
     tools:context="testeadapt3.cursoandroid2.com.pray.activities.AlertDialogCustomActivity">
 
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/alert_dialog_custon"
+        android:orientation="vertical">
+
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:layout_gravity="center"
-            android:textStyle="bold"
+            android:gravity="center"
             android:text="Sair da applicação"
             android:textColor="@android:color/white"
-            android:textSize="20dp" />
+            android:textSize="20dp"
+            android:textStyle="bold" />
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="200dp"
-            android:layout_gravity="center"
-            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
             android:orientation="horizontal">
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/alert_dialog_custon" />
 
-            <ImageButton
-                android:id="@+id/btn_yes"
-                android:layout_width="150dp"
-                android:layout_height="80dp"
-                android:background="#f5ee83"
-                android:clickable="true"
-                android:layout_gravity="bottom"
-                android:src="@drawable/ic_check" />
-
-            <ImageButton
-                android:id="@+id/btn_no"
-                android:layout_width="150dp"
-                android:layout_height="80dp"
-                android:background="#f5ee83"
-                android:clickable="true"
-                android:layout_gravity="bottom"
-                android:src="@drawable/ic_action_cancel" />
         </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <ImageButton
+                        android:id="@+id/btn_yes"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="bottom"
+                        android:layout_weight="1"
+                        android:background="@drawable/botoes_customizados"
+                        android:clickable="true"
+                        android:src="@drawable/ic_check" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+
+                    <ImageButton
+                        android:id="@+id/btn_no"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="bottom"
+                        android:layout_weight="1"
+                        android:background="@drawable/botoes_customizados"
+                        android:clickable="true"
+                        android:src="@drawable/ic_action_cancel" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
     </LinearLayout>
+</LinearLayout>
+

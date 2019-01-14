@@ -9,9 +9,12 @@ import android.view.Window;
 import android.widget.ImageButton;
 
 import com.facebook.AccessToken;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 import testeadapt3.cursoandroid2.com.pray.R;
 import testeadapt3.cursoandroid2.com.pray.logins.LoginFacebook;
+import testeadapt3.cursoandroid2.com.pray.logins.LoginGoogle;
 
 public class AlertDialogCustomActivity extends Dialog implements
         android.view.View.OnClickListener {
@@ -20,13 +23,16 @@ public class AlertDialogCustomActivity extends Dialog implements
     public Dialog d;
     public ImageButton yes, no;
     private LoginFacebook loginFacebook;
+    private LoginGoogle loginGoogle;
+    private FirebaseAuth mAuth;
 
     public AlertDialogCustomActivity(Activity a) {
         super( a );
         // TODO Auto-generated constructor stub
         this.c = a;
         loginFacebook = new LoginFacebook( a );
-
+        loginGoogle = new LoginGoogle( a );
+        mAuth = FirebaseAuth.getInstance();
     }
 
     @Override
@@ -34,6 +40,7 @@ public class AlertDialogCustomActivity extends Dialog implements
         super.onCreate( savedInstanceState );
         requestWindowFeature( Window.FEATURE_NO_TITLE );
         setContentView( R.layout.activity_alert_dialog_custom );
+
         yes = (ImageButton) findViewById( R.id.btn_yes );
         no = (ImageButton) findViewById( R.id.btn_no );
         yes.setOnClickListener( this );
@@ -55,14 +62,21 @@ public class AlertDialogCustomActivity extends Dialog implements
             default:
                 break;
         }
+
         dismiss();
     }
 
     public void verificationsttatus() {
         AccessToken accessToken = AccessToken.getCurrentAccessToken();
-        boolean isLoggedIn = accessToken != null && !accessToken.isExpired();
-        if (isLoggedIn) {
+        FirebaseUser currentUser = mAuth.getCurrentUser();
+
+        boolean isLoggedInFace = accessToken != null && !accessToken.isExpired();
+        boolean isLoggedGoogle = currentUser != null;
+        if (isLoggedInFace) {
             loginFacebook.sairFacebook();
+        }
+        if (isLoggedGoogle) {
+            loginGoogle.deslogarGoogle();
         }
     }
 }
